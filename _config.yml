@@ -341,3 +341,13 @@ defaults:
       author_profile: false
       share: true
       classes: wide
+
+feature_row:
+  - image_path:
+    alt:
+    title:
+    excerpt:
+    url:
+    btn_label:
+    btn_class:
+    
