@@ -1,0 +1,11 @@
+---
+layout: collection
+---
+
+{% for episode in site.episodes %}
+  <h2>
+    <a href="{{ episode.url }}">
+        ({{ episode.number }}) {{ episode.title }}
+    </a>
+  </h2>
+{% endfor %}

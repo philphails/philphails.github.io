@@ -12,21 +12,21 @@
 
 # theme                  : "minimal-mistakes-jekyll"
 remote_theme             : "mmistakes/minimal-mistakes@4.28.0"
-minimal_mistakes_skin    : "default" # "air", "aqua", "contrast", "dark", "dirt", "neon", "mint", "plum", "sunrise", "catppuccin_latte", "catppuccin_mocha"
+minimal_mistakes_skin    : "sunrise" # "air", "aqua", "contrast", "dark", "default", "dirt", "neon", "mint", "plum", "sunrise", "catppuccin_latte", "catppuccin_mocha"
 
 # Site Settings
 locale                   : "en-US"
 direction                : # "ltr" (default), "rtl" # set the direction of the page
-title                    : "Site Title"
+title                    : "Phil Phails"
 title_separator          : "-"
 subtitle                 : # site tagline that appears below site title in masthead
-name                     : "Your Name"
+name                     : "Phil Phails"
 description              : "An amazing website."
-url                      : # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
-baseurl                  : # the subpath of your site, e.g. "/blog"
-repository               : # GitHub username/repo-name e.g. "mmistakes/minimal-mistakes"
+url                      : "https://philphails1-max.github.io/phil_phails"
+baseurl                  : "/phil_phails"
+repository               : "philphails1-max/phil_phails"
 teaser                   : # path of fallback teaser image, e.g. "/assets/images/500x300.png"
-logo                     : # path of logo image to display in the masthead, e.g. "/assets/images/88x88.png"
+logo                     : "/assets/images/philphailslogopic.jpg" # path of logo image to display in the masthead, e.g. "/assets/images/88x88.png"
 masthead_title           : # overrides the website title displayed in the masthead, use " " for no title
 breadcrumbs              : # true, false (default)
 words_per_minute         : 200
@@ -67,8 +67,8 @@ reCaptcha:
   secret                 :
 atom_feed:
   path                   : # blank (default) uses feed.xml
-  hide                   : # true, false (default)
-search                   : # true, false (default)
+  hide                   : true, false (default)
+search                   : true, false (default)
 search_full_content      : # true, false (default)
 search_provider          : # lunr (default), algolia, google
 lunr:
@@ -114,55 +114,49 @@ analytics:
 
 # Site Author
 author:
-  name             : "Your Name"
-  avatar           : # path of avatar image, e.g. "/assets/images/bio-photo.jpg"
-  bio              : "I am an **amazing** person."
-  location         : "Somewhere"
-  email            :
+  name             : "Phillip Jones"
+  avatar           : "/assets/images/philphailslogopic.jpg"
+  bio              : >-
+    👨‍👧‍👧 Single dad | 🧠 Neurodivergent & Proud | 🛤️ Path Seeker
+
+    After a lifetime of personal growth—through self-help, therapy, and endless learning—I'm embracing my unique journey. No more chasing 'normal.' Here to celebrate the quirks, the trials, and the joys of being authentically me. 🌟
+    Leaving the software world behind, I'm forging a new trail with "Phil Phails," a show that revels in the messiness of life and learning. Catch my latest adventures and dad moments on Austin Public  and YouTube. Let’s redefine success together.
+  email            : "philphails1@gmail.com"
   # fediverse      : "@you@instance.social"  # used for fediverse:creator meta tag
   links:
     - label: "Email"
       icon: "fas fa-fw fa-square-envelope"
-      # url: "mailto:your.name@email.com"
-    - label: "Website"
-      icon: "fas fa-fw fa-link"
-      # url: "https://your-website.com"
+      url: "mailto:philphails1@gmail.com"
     - label: "Twitter"
       icon: "fab fa-fw fa-square-x-twitter"
-      # url: "https://twitter.com/"
+      url: "https://x.com/philphails"
     - label: "Facebook"
       icon: "fab fa-fw fa-square-facebook"
-      # url: "https://facebook.com/"
-    - label: "GitHub"
-      icon: "fab fa-fw fa-github"
-      # url: "https://github.com/"
+      url: "https://www.facebook.com/philphails/"
     - label: "Instagram"
       icon: "fab fa-fw fa-instagram"
-      # url: "https://instagram.com/"
+      url: "https://www.instagram.com/phil_phails"
 
 # Site Footer
 footer:
   links:
-    - label: "Twitter"
-      icon: "fab fa-fw fa-square-x-twitter"
-      # url:
-      # rel: "me"  # optional: adds rel attribute (e.g. for IndieWeb web sign-in)
+    - label: "YouTube"
+      icon: "fab fa-fw fa-youtube"
+      url: "https://www.youtube.com/@PhilPhails"
     - label: "Facebook"
       icon: "fab fa-fw fa-square-facebook"
-      # url:
-    - label: "GitHub"
-      icon: "fab fa-fw fa-github"
-      # url:
-    - label: "GitLab"
-      icon: "fab fa-fw fa-gitlab"
-      # url:
-    - label: "Bitbucket"
-      icon: "fab fa-fw fa-bitbucket"
-      # url:
+      url: "https://www.facebook.com/philphails/"
+    - label: "Linkedin"
+      icon: "fab fa-fw fa-linkedin"
+      url: "https://www.linkedin.com/in/phillipjones2/"
     - label: "Instagram"
       icon: "fab fa-fw fa-instagram"
-      # url:
-  since: "2013"
+      url: "https://www.instagram.com/phil_phails"
+    - label: "Twitter"
+      icon: "fab fa-fw fa-square-x-twitter"
+      url: "https://x.com/philphails"
+      # rel: "me"  # optional: adds rel attribute (e.g. for IndieWeb web sign-in)
+  since: "2026"
 
 
 # Reading Files
@@ -332,3 +326,18 @@ defaults:
       share: true
       related: true
 
+collections:
+  episodes:
+    output: true
+    permalink: /:collection/:path/
+
+defaults:
+  # _episodes
+  - scope:
+      path: ""
+      type: episodes
+    values:
+      layout: single
+      author_profile: false
+      share: true
+      classes: wide
