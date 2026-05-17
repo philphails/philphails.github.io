@@ -328,6 +328,7 @@ defaults:
 
 collections:
   episodes:
+    sort_by: lesson
     output: true
     permalink: /:collection/:path/
 
