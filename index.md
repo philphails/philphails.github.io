@@ -1,7 +1,7 @@
 ---
 layout: splash
 header:
-    image: /assets/images/philphailssplashheaderimage.jpg
+    image: /assets/images/philphailssplashheaderimage.png
     
 feature_row:
   - image_path: /assets/images/mind2.png
