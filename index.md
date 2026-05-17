@@ -1,8 +1,8 @@
 ---
 layout: splash
-excerpt: "\"Progress has not followed a straight ascending line, but a spiral with rhythms of progress and retrogression.\" - Johann Wolfgang von Goethe"
 header:
     image: /assets/images/headerpic.jpg
+    overlay_image: /assets/images/quoteimageoverlay.png
     
 feature_row:
   - image_path: /assets/images/mind2.png
