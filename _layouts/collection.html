@@ -1,7 +1,7 @@
 ---
 layout: archive
 ---
-{%- assign locale = page.locale | default: layout.locale | default: site.locale %}
+{%- assign locale = page.locale | default: layout.locale | default: site.locale | sort: number | reversed %}
 
 {{ content }}
 
