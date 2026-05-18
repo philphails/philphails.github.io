@@ -330,7 +330,9 @@ collections:
   episodes:
     output: true
     permalink: /:collection/:path/
-    order: "date"
+    order:
+      by: "date"
+      reverse: true
 
 defaults:
   # _episodes
