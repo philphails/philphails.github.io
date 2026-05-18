@@ -328,7 +328,6 @@ defaults:
 
 collections:
   episodes:
-    sort_by: number | reverse
     output: true
     permalink: /:collection/:path/
 
@@ -338,7 +337,7 @@ defaults:
       path: ""
       type: episodes
     values:
-      layout: single
+      layout: splash
       author_profile: false
       share: true
       classes: wide
