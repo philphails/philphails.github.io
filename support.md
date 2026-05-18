@@ -1,11 +1,10 @@
 ---
 title: "Support Phil Phails"
-layout: single
+layout: splash
 permalink: /support/
 classes: wide
 author_profile: false
 header:
-  overlay_image: /assets/images/supportPageImage.png
-  overlay_filter: 0.5
+  image: /assets/images/supportPageImage.png
   caption: "Independent conversations supported by the community."
 ---
