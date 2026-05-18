@@ -339,6 +339,6 @@ defaults:
       type: episodes
     values:
       layout: splash
+      classes: wide
       author_profile: false
       share: true
-      classes: wide
