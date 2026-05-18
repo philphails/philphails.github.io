@@ -9,9 +9,9 @@ header:
   caption: "Independent conversations supported by the community."
 ---
 
-*Phil Phails is an independent long-form conversation project focused on resilience, identity, endurance, philosophy, and the process of becoming.
+*Phil Phails is an independent long-form conversation project focused on resilience, identity, endurance, philosophy, and the process of becoming.*
 
-This work is not backed by a network or studio. It exists because people choose to support it.*
+*This work is not backed by a network or studio. It exists because people choose to support it.*
 
 ---
 
