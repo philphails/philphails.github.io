@@ -328,7 +328,7 @@ defaults:
 
 collections:
   episodes:
-    sort_by: number
+    sort_by: number | reverse
     output: true
     permalink: /:collection/:path/
 
