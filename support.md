@@ -23,7 +23,6 @@ Your support helps cover:
 - Production and editing
 - Equipment and studio costs
 - Hosting and distribution
-- Travel for guest conversations
 - Time required to continue the work
 
 <a href="https://www.paypal.com/donate/?hosted_button_id=GGGL6YZNFGLCC" class="btn btn--primary">Support via PayPal</a>
