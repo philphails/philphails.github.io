@@ -38,7 +38,7 @@ Prefer a one-time contribution? You can support the project directly:
 
 <a href="https://www.paypal.com/donate/?hosted_button_id=GGGL6YZNFGLCC" class="btn btn--inverse">Make a Donation</a>
 
-<a href="https://venmo.com/philphails" class="btn btn--primary">Donate via Venmo</a>
+<a href="https://venmo.com/philphails" class="btn btn--inverse">Donate via Venmo</a>
 
 ---
 
