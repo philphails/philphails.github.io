@@ -328,20 +328,9 @@ defaults:
 
 collections:
   episodes:
+    sort_by: number
     output: true
     permalink: /:collection/:path/
-    order:
-      - 62.md
-      - 61.md
-      - 60.md
-      - 59.md
-      - 58.md
-      - 57.md
-      - 56.md
-      - 55.md
-      - 54.md
-      - 53.md
-      - 52.md
 
 defaults:
   # _episodes
