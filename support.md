@@ -19,9 +19,7 @@ header:
 
 This space exists because of people who choose to support independent conversation.
 
-
 <div class="supporter-grid">
-
   <a href="https://www.bicyclehouseatx.com/" 
      target="_blank" 
      rel="noopener noreferrer"
@@ -29,9 +27,7 @@ This space exists because of people who choose to support independent conversati
 
     <img src="/assets/images/sponsors/bicycle-house.jpg" 
          alt="Bicycle House Logo">
-
   </a>
-
 </div>
 
 ---
