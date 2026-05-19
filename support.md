@@ -15,6 +15,28 @@ header:
 
 ---
 
+## Patrons & Supporters
+
+This space exists because of people who choose to support independent conversation.
+
+
+<div class="supporter-grid">
+
+  <a href="https://www.bicyclehouseatx.com/" 
+     target="_blank" 
+     rel="noopener noreferrer"
+     class="supporter-card">
+
+    <img src="/assets/images/sponsors/bicycle-house.jpg" 
+         alt="Bicycle House Logo">
+
+  </a>
+
+</div>
+
+---
+
+
 ## Become a Patron
 
 If these conversations have value in your life, you can help sustain them.
@@ -38,14 +60,6 @@ Prefer a one-time contribution? You can support the project directly:
 <a href="https://www.paypal.com/donate/?hosted_button_id=GGGL6YZNFGLCC" class="btn btn--inverse">Make a Donation</a>
 
 <a href="https://venmo.com/philphails" class="btn btn--inverse">Donate via Venmo</a>
-
----
-
-## Patrons & Supporters
-
-This space exists because of people who choose to support independent conversation.
-
-*(Patron and sponsor list coming soon.)*
 
 ---
 
