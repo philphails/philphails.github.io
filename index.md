@@ -8,8 +8,8 @@ feature_row:
     alt: "mind"
     title: "mind"
     excerpt: “The mind becomes what it repeatedly contemplates.”
-    url:
-    btn_label:
+    url: /mind/
+    btn_label: 
     btn_class:
   - image_path: /assets/images/body2.png
     alt: "body"
