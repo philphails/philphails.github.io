@@ -21,7 +21,7 @@ title                    : "Phil Phails"
 title_separator          : "-"
 subtitle                 : # site tagline that appears below site title in masthead
 name                     : "Phil Phails"
-description              : "An amazing website."
+description              : "Independent long-form conversations on resilience, identity, endurance, philosophy, and becoming."
 url                      : "https://philphails.github.io"
 baseurl                  : ""
 repository               : "philphails/philphails.github.io"
@@ -259,6 +259,7 @@ pagination:
 
 # Plugins (previously gems:)
 plugins:
+  - jekyll-seo-tag
   - jekyll-paginate
   - jekyll-sitemap
   - jekyll-gist
