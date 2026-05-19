@@ -3,7 +3,6 @@ title: "Mind"
 layout: archive
 permalink: /mind/
 author_profile: false
-entries_layout: grid
 classes: wide
 ---
 
