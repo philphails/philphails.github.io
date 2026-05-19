@@ -37,23 +37,25 @@ search: false
   object-fit: contain;
 }
 
-.archive__item-teaser img {
-  aspect-ratio: 16 / 9;
-  object-fit: cover;
+/* Consistent grid layout */
+.archive .grid__item {
+  width: 25%;
 }
 
-.grid__item {
-  width: 100%;
-}
-
-@media (min-width: 768px) {
-  .grid__item {
+@media screen and (max-width: 1024px) {
+  .archive .grid__item {
     width: 50%;
   }
 }
 
-@media (min-width: 1024px) {
-  .grid__item {
-    width: 33.333%;
+@media screen and (max-width: 600px) {
+  .archive .grid__item {
+    width: 100%;
   }
+}
+
+/* Consistent teaser images */
+.archive__item-teaser img {
+  aspect-ratio: 16 / 9;
+  object-fit: cover;
 }
