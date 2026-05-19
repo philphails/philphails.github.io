@@ -36,26 +36,3 @@ search: false
   max-height: 120px;
   object-fit: contain;
 }
-
-/* Consistent grid layout */
-.archive .grid__item {
-  width: 25%;
-}
-
-@media screen and (max-width: 1024px) {
-  .archive .grid__item {
-    width: 50%;
-  }
-}
-
-@media screen and (max-width: 600px) {
-  .archive .grid__item {
-    width: 100%;
-  }
-}
-
-/* Consistent teaser images */
-.archive__item-teaser img {
-  aspect-ratio: 16 / 9;
-  object-fit: cover;
-}
