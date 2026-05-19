@@ -30,7 +30,7 @@ feature_row:
     title: "philosophy"
     excerpt: “Meaning is found where suffering becomes purpose.”
     url: /philosophy/
-    btn_label: Thinking
+    btn_label: Think
     btn_class:
 ---
 
