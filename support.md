@@ -5,7 +5,7 @@ permalink: /support/
 classes: wide
 author_profile: false
 header:
-  image: /assets/images/supportPageImage.png
+  image: /assets/images/supportPageImage.jpg
   caption: "Independent conversations supported by the community."
 ---
 
