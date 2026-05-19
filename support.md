@@ -1,6 +1,6 @@
 ---
 title: "Support Phil Phails"
-layout: splash
+layout: single
 permalink: /support/
 classes: wide
 author_profile: false
