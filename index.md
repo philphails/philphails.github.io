@@ -10,28 +10,28 @@ feature_row:
     excerpt: “The mind becomes what it repeatedly contemplates.”
     url: /mind/
     btn_label: Explore
-    btn_class:
+    btn_class: btn--light-outline
   - image_path: /assets/images/body2.png
     alt: "body"
     title: "body"
     excerpt: “Strength is built through resistance.”
     url: /body/
     btn_label: Endure
-    btn_class:
+    btn_class: btn--light-outline
   - image_path: /assets/images/spirit2.png
     alt: "spirit"
     title: "spirit"
     excerpt: “Meaning is found where suffering becomes purpose.”
     url: /spirit/
     btn_label: Become
-    btn_class:
+    btn_class: btn--light-outline
   - image_path: /assets/images/mind2.png
     alt: "philosophy"
     title: "philosophy"
     excerpt: “Meaning is found where suffering becomes purpose.”
     url: /philosophy/
     btn_label: Think
-    btn_class:
+    btn_class: btn--light-outline
 ---
 
 {% include feature_row %}
