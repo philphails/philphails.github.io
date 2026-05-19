@@ -20,6 +20,17 @@ header:
 This space exists because of people who choose to support independent conversation.
 
 <div class="supporter-grid">
+  <a href="https://www.studiosatya.com/" 
+     target="_blank" 
+     rel="noopener noreferrer"
+     class="supporter-card">
+
+    <img src="/assets/images/sponsors/studio-satya.jpg" 
+         alt="Studio Satya Logo">
+  </a>
+</div>
+
+<div class="supporter-grid">
   <a href="https://www.bicyclehouseatx.com/" 
      target="_blank" 
      rel="noopener noreferrer"
