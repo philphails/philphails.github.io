@@ -25,6 +25,13 @@ feature_row:
     url: /spirit/
     btn_label: Become
     btn_class:
+  - image_path: /assets/images/mind2.png
+    alt: "philosophy"
+    title: "philosophy"
+    excerpt: “Meaning is found where suffering becomes purpose.”
+    url: /philosophy/
+    btn_label: Thinking
+    btn_class:
 ---
 
 {% include feature_row %}
