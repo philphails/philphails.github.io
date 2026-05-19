@@ -6,7 +6,6 @@ classes: wide
 author_profile: false
 header:
   image: /assets/images/supportPageImage.jpg
-  caption: "Independent conversations supported by the community."
 ---
 
 *Phil Phails is an independent long-form conversation project focused on resilience, identity, endurance, philosophy, and the process of becoming.*
