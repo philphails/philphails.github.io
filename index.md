@@ -28,7 +28,7 @@ feature_row:
   - image_path: /assets/images/mind2.png
     alt: "philosophy"
     title: "philosophy"
-    excerpt: “Meaning is found where suffering becomes purpose.”
+    excerpt: “The examined life begins in conversation.”
     url: /philosophy/
     btn_label: Think
     btn_class: btn--light-outline
