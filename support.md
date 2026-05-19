@@ -43,7 +43,6 @@ This space exists because of people who choose to support independent conversati
 
 ---
 
-
 ## Become a Patron
 
 If these conversations have value in your life, you can help sustain them.
