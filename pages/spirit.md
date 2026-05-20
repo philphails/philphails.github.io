@@ -5,8 +5,11 @@ permalink: /spirit/
 author_profile: false
 entries_layout: grid
 classes: wide
+
 header:
   image: /assets/images/spiritPageImage.jpg
+sidebar:
+  nav: "mind-body-spirit"
 ---
 
 {% assign posts = site.episodes | where_exp: "post", "post.categories contains 'spirit'" | sort: "episode_number" | reverse %}

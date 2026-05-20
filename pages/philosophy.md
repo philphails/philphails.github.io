@@ -5,6 +5,9 @@ permalink: /philosophy/
 author_profile: false
 entries_layout: grid
 classes: wide
+
+sidebar:
+  nav: "mind-body-spirit"
 ---
 
 {% assign posts = site.episodes | where_exp: "post", "post.categories contains 'philosophy'" | sort: "episode_number" | reverse %}
