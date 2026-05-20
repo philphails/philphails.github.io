@@ -7,6 +7,8 @@ entries_layout: grid
 classes: wide
 header:
   image: /assets/images/bodyPageImage.jpg
+sidebar:
+  nav: "mind-body-spirit"
 ---
 
 {% assign posts = site.episodes | where_exp: "post", "post.categories contains 'body'" | sort: "episode_number" | reverse %}
