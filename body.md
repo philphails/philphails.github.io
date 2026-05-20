@@ -5,6 +5,8 @@ permalink: /body/
 author_profile: false
 entries_layout: grid
 classes: wide
+header:
+  image: /assets/images/bodyPageImage.jpg
 ---
 
 {% assign posts = site.episodes | where_exp: "post", "post.categories contains 'body'" | sort: "episode_number" | reverse %}

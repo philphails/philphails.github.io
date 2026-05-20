@@ -4,6 +4,8 @@ layout: archive
 permalink: /mind/
 author_profile: false
 classes: wide
+header:
+  image: /assets/images/mindPageImage.jpg
 ---
 
 {% assign posts = site.episodes | where_exp: "post", "post.categories contains 'mind'" | sort: "episode_number" | reverse %}
