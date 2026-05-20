@@ -4,8 +4,6 @@ permalink: /about/
 layout: page
 classes: wide
 author_profile: false
-
-header:
 ---
 
 > “Thoughtful conversation still matters.”
