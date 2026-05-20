@@ -17,9 +17,3 @@ mind-body-spirit:
     children:
       - title: "Philosophy"
         url: /philosophy/
-
-      - title: "Endurance"
-        url: /endurance/
-
-      - title: "Identity"
-        url: /identity/
