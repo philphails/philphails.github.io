@@ -1,10 +1,9 @@
 ---
 title: "Spirit"
 layout: archive
+classes: wide
 permalink: /spirit/
 author_profile: false
-entries_layout: grid
-classes: wide
 
 header:
   image: /assets/images/spiritPageImage.jpg

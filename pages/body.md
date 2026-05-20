@@ -1,9 +1,9 @@
 ---
 title: "Body"
 layout: archive
+classes: wide
 permalink: /body/
 author_profile: false
-entries_layout: grid
 
 header:
   image: /assets/images/bodyPageImage.jpg

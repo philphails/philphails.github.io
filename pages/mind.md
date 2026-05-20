@@ -1,9 +1,9 @@
 ---
 title: "Mind"
 layout: archive
+classes: wide
 permalink: /mind/
 author_profile: false
-classes: wide
 
 header:
   image: /assets/images/mindPageImage.jpg
