@@ -34,4 +34,6 @@ feature_row:
     btn_class: btn--light-outline
 ---
 
+# Independent long-form conversations on resilience, identity, endurance, philosophy, and becoming.
+
 {% include feature_row %}
