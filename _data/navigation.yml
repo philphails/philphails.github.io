@@ -21,3 +21,8 @@ mind-body-spirit:
 
       - title: "Spirit"
         url: /spirit/
+        
+  - title: "Themes"
+    children:
+      - title: "Philosophy"
+        url: /philosophy/
