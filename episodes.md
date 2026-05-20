@@ -8,5 +8,5 @@ classes: wide
 sort_by: episode_number
 sort_order: reverse
 header:
-  image: /assets/images/episodePageImage.jpg
+  image: /assets/images/episodesPageImage.jpg
 ---
