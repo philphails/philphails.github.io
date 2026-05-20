@@ -36,3 +36,8 @@ search: false
   max-height: 120px;
   object-fit: contain;
 }
+
+.sidebar {
+  position: sticky;
+  top: 2rem;
+}
