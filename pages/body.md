@@ -4,7 +4,7 @@ layout: archive
 permalink: /body/
 author_profile: false
 entries_layout: grid
-classes: wide
+
 header:
   image: /assets/images/bodyPageImage.jpg
 sidebar:
