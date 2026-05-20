@@ -1,7 +1,7 @@
 # main links
 main:
-  # - title: "About"
-  #   url: /about/
+  - title: "About"
+    url: /about/
   - title: "Episodes"
     url: /episodes/
   - title: "Support"
@@ -21,7 +21,7 @@ mind-body-spirit:
 
       - title: "Spirit"
         url: /spirit/
-        
+
   - title: "Themes"
     children:
       - title: "Philosophy"
