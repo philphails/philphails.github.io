@@ -40,4 +40,10 @@ search: false
 .sidebar {
   position: sticky;
   top: 2rem;
+  font-size: 0.95rem;
+}
+
+.nav__title {
+  text-transform: uppercase;
+  letter-spacing: 0.08em;
 }
