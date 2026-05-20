@@ -5,6 +5,8 @@ classes: wide
 permalink: /philosophy/
 author_profile: false
 
+header:
+  image: /assets/images/philosophyPageImage.jpg
 sidebar:
   nav: "mind-body-spirit"
 ---
