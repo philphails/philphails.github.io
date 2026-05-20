@@ -22,7 +22,7 @@ title_separator          : "-"
 subtitle                 : # site tagline that appears below site title in masthead
 name                     : "Phil Phails"
 description              : "Independent long-form conversations on resilience, identity, endurance, philosophy, and becoming."
-url                      : "https://philphails.github.io"
+url                      : "https://philphails.com" # the base hostname & protocol for your site, e.g. https://example.com
 baseurl                  : ""
 repository               : "philphails/philphails.github.io"
 teaser                   : # path of fallback teaser image, e.g. "/assets/images/500x300.png"
@@ -126,7 +126,7 @@ author:
   links:
     - label: "Email"
       icon: "fas fa-fw fa-square-envelope"
-      url: "mailto:philphails1@gmail.com"
+      url: "mailto:phillip@philphails.com"
     - label: "Twitter"
       icon: "fab fa-fw fa-square-x-twitter"
       url: "https://x.com/philphails"
