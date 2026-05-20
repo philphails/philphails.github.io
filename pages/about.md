@@ -8,8 +8,6 @@ header:
   image: /assets/images/aboutPageImage.jpg
 ---
 
-> “Thoughtful conversation still matters.”
-
 ## About Phil Phails
 
 Phil Phails is an independent long-form conversation project created and hosted by Phillip Jones.
