@@ -6,3 +6,18 @@ main:
     url: /episodes/
   - title: "Support"
     url: /support/
+
+mind-body-spirit:
+  - title: "Explore"
+    children:
+      - title: "All Episodes"
+        url: /episodes/
+
+      - title: "Mind"
+        url: /mind/
+
+      - title: "Body"
+        url: /body/
+
+      - title: "Spirit"
+        url: /spirit/
