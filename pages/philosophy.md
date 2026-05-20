@@ -1,10 +1,9 @@
 ---
 title: "Philosophy"
 layout: archive
+classes: wide
 permalink: /philosophy/
 author_profile: false
-entries_layout: grid
-classes: wide
 
 sidebar:
   nav: "mind-body-spirit"
