@@ -3,7 +3,7 @@ layout: splash
 hero_title: Independent long-form conversations on resilience, identity, endurance, and becoming.
 header:
     # image: /assets/images/philphailssplashheaderimage.png
-    overlay_image: /assets/images/Homepage-hero.jpg
+    overlay_image: /assets/images/Homepage-hero2.jpg
     overlay_filter: 0.55
     actions:
       - label: "Explore Episodes"
