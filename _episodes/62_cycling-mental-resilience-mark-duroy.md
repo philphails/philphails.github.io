@@ -3,7 +3,7 @@ collection: episodes
 date: 2026-5-6
 episode_number: 62
 guest: Mark Duroy
-title: How Cycling Builds Mental Resilience and Discipline '|' Pro Cyclist Mark Duroy on Performance Mindset
+title: How Cycling Builds Mental Resilience and Discipline: Pro Cyclist Mark Duroy on Performance Mindset
 h1: How Cycling Builds Mental Resilience Through Training, Racing, and Discipline
 description: Pro cyclist Mark Duroy explains how cycling builds mental resilience, discipline, and performance mindset for athletes and everyday life.
 permalink: /cycling-mental-resilience-mark-duroy/
