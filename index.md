@@ -13,6 +13,9 @@ header:
       - label: "Watch on YouTube"
         url: "https://www.youtube.com/@PhilPhails"
         class: "btn--light-outline"
+
+excerpt: Explore ideas that help you think more clearly, feel more deeply, and live more intentionally.
+
     
 feature_row:
   # - image_path: /assets/images/mind2.png
@@ -47,5 +50,70 @@ feature_row:
     btn_label: Think
     btn_class: btn--light-outline
 ---
+
+<h2>Start Here</h2>
+
+<p>
+This site is a collection of conversations. Not everything will resonate — and that’s intentional.
+</p>
+
+<p>
+Start by exploring episodes. Read the articles. Watch the conversations. Follow what feels relevant to you right now.
+</p>
+
+<h2>Episodes</h2>
+
+<div class="episode-grid">
+  {% assign featured = site.episodes | where: "featured", true | limit: 4 %}
+
+  {% for post in featured %}
+    <div class="episode-card">
+      <a href="{{ post.url }}">
+        <h3>{{ post.card_title | default: post.title }}</h3>
+        <p>{{ post.description }}</p>
+      </a>
+    </div>
+  {% endfor %}
+</div>
+
+<p>
+<a href="/episodes/">View all episodes →</a>
+</p>
+
+<h2>If It Resonates</h2>
+
+<p>
+If something here connects with you, there are a few ways to go deeper.
+</p>
+
+<ul>
+<li>Subscribe on YouTube</li>
+<li>Like and comment on episodes that speak to you</li>
+<li>Share conversations that might help someone else</li>
+</ul>
+
+<p>
+This project grows through real engagement — not algorithms.
+</p>
+
+<h2>Support the Work</h2>
+
+<p>
+Phil Phails is an independent podcast.
+</p>
+
+<p>
+If these conversations add value to your life, you can help support the ongoing creation of this work.
+</p>
+
+<a href="/support" class="btn btn--primary">
+Become a Supporter
+</a>
+
+<h2>Why This Exists</h2>
+
+<p>
+The goal is simple — to create conversations that help people think, feel, and live a little differently than before.
+</p>
 
 {% include feature_row %}
