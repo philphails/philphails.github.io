@@ -80,16 +80,16 @@ Start by exploring episodes. Read the articles. Watch the conversations. Follow 
 <p>
 If something here connects with you, there are a few ways to go deeper.
 </p>
+<p>
+  <a class="btn btn--primary btn--large"
+     href="https://www.youtube.com/@PhilPhails?sub_confirmation=1"
+     target="_blank"
+     rel="noopener">
+     Subscribe on YouTube
+  </a>
+</p>
 
 <ul>
-  <li>
-    <a class="btn btn--primary"
-      href="https://www.youtube.com/@PhilPhails?sub_confirmation=1"
-      target="_blank"
-      rel="noopener">
-      Subscribe on YouTube
-    </a>
-  </li>
   <li>Like and comment on episodes that speak to you</li>
   <li>Share conversations that might help someone else</li>
 </ul>
