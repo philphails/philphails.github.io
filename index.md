@@ -85,7 +85,7 @@ If something here connects with you, there are a few ways to go deeper.
      href="https://www.youtube.com/@PhilPhails?sub_confirmation=1"
      target="_blank"
      rel="noopener">
-     Subscribe on YouTube
+     Join the Conversation on YouTube
   </a>
 </p>
 
