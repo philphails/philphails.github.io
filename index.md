@@ -1,8 +1,8 @@
 ---
 layout: splash
 header:
-    image: /assets/images/philphailssplashheaderimage.png
-    overlay_image: /assets/images/philphailssplashheaderimage.png
+    # image: /assets/images/philphailssplashheaderimage.png
+    overlay_image: /assets/images/Homepage-hero.jpg
     overlay_filter: 0.55
     actions:
       - label: "Explore Episodes"
