@@ -6,7 +6,7 @@ guest: Mark Duroy
 title: How Cycling Builds Mental Resilience and Discipline: Pro Cyclist Mark Duroy on Performance Mindset
 h1: How Cycling Builds Mental Resilience Through Training, Racing, and Discipline
 description: Pro cyclist Mark Duroy explains how cycling builds mental resilience, discipline, and performance mindset for athletes and everyday life.
-permalink: /cycling-mental-resilience-mark-duroy/
+permalink: /episodes/cycling-mental-resilience-mark-duroy/
 slug: cycling-mental-resilience-mark-duroy
 header:
     video:
