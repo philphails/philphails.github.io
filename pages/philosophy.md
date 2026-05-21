@@ -59,6 +59,8 @@ sidebar:
   </p>
 </section>
 
+<h2>Related Episodes</h2>
+
 {% assign posts = site.episodes | where_exp: "post", "post.categories contains 'philosophy'" | sort: "episode_number" | reverse %}
 
 <div class="entries-grid">
