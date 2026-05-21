@@ -10,8 +10,7 @@ header:
 sidebar:
   nav: "mind-body-spirit"
 ---
-<h1>Philosophy and the Search for Meaning</h1>
-
+<h2>Introduction</h2>
 <section>
   <p>
     Philosophy at Phil Phails is not about academic theory or abstract arguments alone. It is about the lived experience of questioning reality, identity, morality, and meaning. These conversations explore how we understand ourselves and the world we move through every day.
