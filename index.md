@@ -51,8 +51,6 @@ feature_row:
     btn_class: btn--light-outline
 ---
 
-## Independent long-form conversations on resilience, identity, endurance, philosophy, and becoming.
-
 <a href="/episodes/" class="btn btn--inverse btn--large">
   Explore Episodes
 </a>
