@@ -2,14 +2,19 @@
 main:
   - title: "About"
     url: /about/
+
   - title: "Episodes"
     url: /episodes/
+
   - title: "Mind"
     url: /mind/
+
   - title: "Body"
     url: /body/
+
   - title: "Spirit"
     url: /spirit/
+    
   - title: "Support"
     url: /support/
 
