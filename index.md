@@ -13,10 +13,6 @@ header:
       - label: "Watch on YouTube"
         url: "https://www.youtube.com/@PhilPhails"
         class: "btn--light-outline"
-
-excerpt: >
-  Independent long-form conversations on resilience,
-  identity, endurance, and becoming.
     
 feature_row:
   # - image_path: /assets/images/mind2.png
