@@ -52,15 +52,4 @@ feature_row:
     btn_class: btn--light-outline
 ---
 
-<a href="/episodes/" class="btn btn--inverse btn--large">
-  Explore Episodes
-</a>
-
-<a href="https://www.youtube.com/@PhilPhails?sub_confirmation=1"
-   target="_blank"
-   rel="noopener noreferrer"
-   class="btn btn--light-outline btn--large">
-  Watch on YouTube
-</a>
-
 {% include feature_row %}
