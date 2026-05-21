@@ -72,7 +72,7 @@ Start by exploring episodes. Read the articles. Watch the conversations. Follow 
   </div>
 
 <p>
-<a href="/episodes/">View all episodes →</a>
+<a href="/episodes/" class="btn btn--light-outline">View all episodes</a>
 </p>
 
 <h2>If It Resonates</h2>
