@@ -1,6 +1,5 @@
 ---
 layout: splash
-title: ""
 header:
     # image: /assets/images/philphailssplashheaderimage.png
     overlay_image: /assets/images/Homepage-hero.jpg
