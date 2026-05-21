@@ -10,7 +10,7 @@ header:
 sidebar:
   nav: "mind-body-spirit"
 ---
-<h2>Introduction</h1>
+<h2>Introduction</h2>
 
 <section>
   <p>
