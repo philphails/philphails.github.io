@@ -3,8 +3,11 @@ collection: episodes
 date: 2026-5-6
 episode_number: 62
 guest: Mark Duroy
-title: How Cycling Helped Mark Duroy Overcome ADHD, Addiction, and Burnout
-description: Former pro cyclist Mark Duroy shares how cycling helped him navigate ADHD, sobriety, burnout, and personal growth.
+title: How Cycling Builds Mental Resilience and Discipline '|' Pro Cyclist Mark Duroy on Performance Mindset
+h1: How Cycling Builds Mental Resilience Through Training, Racing, and Discipline
+description: Pro cyclist Mark Duroy explains how cycling builds mental resilience, discipline, and performance mindset for athletes and everyday life.
+permalink: /cycling-mental-resilience-mark-duroy/
+slug: cycling-mental-resilience-mark-duroy
 header:
     video:
         id: 9UKWVSsz3mw
@@ -15,9 +18,15 @@ categories:
   - body
   - bike
   - coach
+  - fitness
+  - mindset
+  - performance
+  - resilience
+
+tags: [cycling, mental resilience, discipline, performance mindset, endurance, sports psychology, coaching]
 ---
 
-## How Cycling Enhances Your Life: Lessons from Pro Cyclist Mark Duroy
+<h2>{{ page.h1 | default: page.title }}</h2>
 
 *Mark Duroy shares how cycling helped him navigate ADHD, sobriety, and career pivots. Discover why cycling should enhance your life.* 
 
