@@ -62,19 +62,12 @@ Start by exploring episodes. Read the articles. Watch the conversations. Follow 
 </p>
 
 <h2>Episodes</h2>
-
-<div class="episode-grid">
   {% assign featured = site.episodes | where: "featured", true | limit: 4 %}
-
-  {% for post in featured %}
-    <div class="episode-card">
-      <a href="{{ post.url }}">
-        <h3>{{ post.card_title | default: post.title }}</h3>
-        <p>{{ post.description }}</p>
-      </a>
-    </div>
-  {% endfor %}
-</div>
+  <div class="entries-grid">
+    {% for post in featured %}
+      {% include archive-single.html type="grid" %}
+    {% endfor %}
+  </div>
 
 <p>
 <a href="/episodes/">View all episodes →</a>
