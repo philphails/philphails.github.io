@@ -37,3 +37,6 @@ mind-body-spirit:
     children:
       - title: "Philosophy"
         url: /philosophy/
+
+      - title: "Psychology"
+        url: /psychology/

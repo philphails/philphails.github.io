@@ -64,7 +64,7 @@ Start by exploring episodes. Read the articles. Watch the conversations. Follow 
 {% include feature_row %}
 
 <h2>Episodes Like</h2>
-  {% assign featured = site.episodes | where: "featured", true | limit: 4 %}
+  {% assign featured = site.episodes | where: "featured", true | limit: 4 | sort: "episode_number" | reverse %}
   <div class="entries-grid">
     {% for post in featured %}
       {% include archive-single.html type="grid" %}
