@@ -4,7 +4,7 @@ hero_title: Independent long-form conversations on resilience, identity, enduran
 header:
     # image: /assets/images/philphailssplashheaderimage.png
     overlay_image: /assets/images/Homepage-hero2.jpg
-    overlay_filter: 0.55
+    overlay_filter: 0.45
     actions:
       - label: "Explore Episodes"
         url: "/episodes/"
@@ -82,9 +82,16 @@ If something here connects with you, there are a few ways to go deeper.
 </p>
 
 <ul>
-<li>Subscribe on YouTube</li>
-<li>Like and comment on episodes that speak to you</li>
-<li>Share conversations that might help someone else</li>
+  <li>
+    <a class="btn btn--primary"
+      href="https://www.youtube.com/@PhilPhails?sub_confirmation=1"
+      target="_blank"
+      rel="noopener">
+      Subscribe on YouTube
+    </a>
+  </li>
+  <li>Like and comment on episodes that speak to you</li>
+  <li>Share conversations that might help someone else</li>
 </ul>
 
 <p>
