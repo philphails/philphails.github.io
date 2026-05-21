@@ -2,14 +2,20 @@
 layout: splash
 header:
     image: /assets/images/philphailssplashheaderimage.png
+    overlay_image: /assets/images/philphailssplashheaderimage.png
+    overlay_filter: 0.55
     actions:
-    - label: "Explore Episodes"
-      url: "/episodes/"
-      class: "btn--inverse"
+      - label: "Explore Episodes"
+        url: "/episodes/"
+        class: "btn--inverse"
 
-    - label: "Watch on YouTube"
-      url: "https://www.youtube.com/@PhilPhails"
-      class: "btn--light-outline"
+      - label: "Watch on YouTube"
+        url: "https://www.youtube.com/@PhilPhails"
+        class: "btn--light-outline"
+
+excerpt: >
+  Independent long-form conversations on resilience,
+  identity, endurance, and becoming.
     
 feature_row:
   # - image_path: /assets/images/mind2.png
