@@ -39,4 +39,15 @@ feature_row:
 
 ## Independent long-form conversations on resilience, identity, endurance, philosophy, and becoming.
 
+<a href="/episodes/" class="btn btn--inverse btn--large">
+  Explore Episodes
+</a>
+
+<a href="https://www.youtube.com/@PhilPhails?sub_confirmation=1"
+   target="_blank"
+   rel="noopener noreferrer"
+   class="btn btn--light-outline btn--large">
+  Watch on YouTube
+</a>
+
 {% include feature_row %}
