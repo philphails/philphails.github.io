@@ -18,37 +18,37 @@ excerpt: Explore ideas that help you think more clearly, feel more deeply, and l
 
     
 feature_row:
-  # - image_path: /assets/images/mind2.png
-  #   alt: "mind"
-  #   title: "mind"
-  #   excerpt: “The mind becomes what it repeatedly contemplates.”
-  #   url: /mind/
-  #   btn_label: Explore
-  #   btn_class: btn--light-outline
-
-  # - image_path: /assets/images/body2.png
-  #   alt: "body"
-  #   title: "body"
-  #   excerpt: “Strength is built through resistance.”
-  #   url: /body/
-  #   btn_label: Endure
-  #   btn_class: btn--light-outline
-
-  # - image_path: /assets/images/spirit2.png
-  #   alt: "spirit"
-  #   title: "spirit"
-  #   excerpt: “Meaning is found where suffering becomes purpose.”
-  #   url: /spirit/
-  #   btn_label: Become
-  #   btn_class: btn--light-outline
-
   - image_path: /assets/images/mind2.png
-    alt: "philosophy"
-    title: "Philosophy Book Club"
-    excerpt: “The examined life begins in conversation.”
-    url: /philosophy/
-    btn_label: Think
+    alt: "mind"
+    title: "mind"
+    excerpt: “The mind becomes what it repeatedly contemplates.”
+    url: /mind/
+    btn_label: Explore
     btn_class: btn--light-outline
+
+  - image_path: /assets/images/body2.png
+    alt: "body"
+    title: "body"
+    excerpt: “Strength is built through resistance.”
+    url: /body/
+    btn_label: Endure
+    btn_class: btn--light-outline
+
+  - image_path: /assets/images/spirit2.png
+    alt: "spirit"
+    title: "spirit"
+    excerpt: “Meaning is found where suffering becomes purpose.”
+    url: /spirit/
+    btn_label: Become
+    btn_class: btn--light-outline
+
+  # - image_path: /assets/images/mind2.png
+  #   alt: "philosophy"
+  #   title: "Philosophy Book Club"
+  #   excerpt: “The examined life begins in conversation.”
+  #   url: /philosophy/
+  #   btn_label: Think
+  #   btn_class: btn--light-outline
 ---
 
 <h2>Start Here</h2>
@@ -60,6 +60,8 @@ This site is a collection of conversations. Not everything will resonate — and
 <p>
 Start by exploring episodes. Read the articles. Watch the conversations. Follow what feels relevant to you right now.
 </p>
+
+{% include feature_row %}
 
 <h2>Episodes</h2>
   {% assign featured = site.episodes | where: "featured", true | limit: 4 %}
@@ -108,5 +110,3 @@ Become a Supporter
 <p>
 The goal is simple — to create conversations that help people think, feel, and live a little differently than before.
 </p>
-
-{% include feature_row %}
