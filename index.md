@@ -1,10 +1,10 @@
 ---
 layout: splash
+title: ""
 header:
     # image: /assets/images/philphailssplashheaderimage.png
     overlay_image: /assets/images/Homepage-hero.jpg
     overlay_filter: 0.55
-    title: " "
     actions:
       - label: "Explore Episodes"
         url: "/episodes/"
