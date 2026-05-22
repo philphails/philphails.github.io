@@ -4,33 +4,66 @@
 
   <div class="episode-footer__related">
 
-    <h2>If This Resonated</h2>
+  <h2>If This Resonated</h2>
 
-    <p>
-        These conversations explore similar themes.
-    </p>
+  <p>These conversations explore similar themes.</p>
 
-  {% if page.related_episodes %}
+  <div class="entries-grid">
 
-    <div class="entries-grid">
+    {%- comment -%}
+    1. MANUAL OVERRIDE
+    {%- endcomment -%}
+
+    {% if page.related_episodes and page.related_episodes.size > 0 %}
 
       {% for url in page.related_episodes %}
 
         {% assign post = site.episodes | where: "url", url | first %}
 
         {% if post %}
-
           {% include archive-single.html post=post type="grid" %}
+        {% endif %}
+
+      {% endfor %}
+
+
+    {%- comment -%}
+    2. FALLBACK: CATEGORY MATCH (ANY OVERLAP)
+    {%- endcomment -%}
+
+    {% else %}
+
+      {% assign fallback_count = 0 %}
+
+      {% for post in site.episodes %}
+
+        {% if post.url != page.url %}
+
+          {% assign shared = false %}
+
+          {% for c in post.categories %}
+            {% if page.categories contains c %}
+              {% assign shared = true %}
+            {% endif %}
+          {% endfor %}
+
+          {% if shared and fallback_count < 2 %}
+
+            {% include archive-single.html post=post type="grid" %}
+
+            {% assign fallback_count = fallback_count | plus: 1 %}
+
+          {% endif %}
 
         {% endif %}
 
       {% endfor %}
 
-    </div>
-
-  {% endif %}
+    {% endif %}
 
   </div>
+
+</div>
 
   <div class="episode-footer__hubs">
 
