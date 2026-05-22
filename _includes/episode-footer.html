@@ -26,17 +26,12 @@
       These conversations explore similar themes.
     </p>
 
-    <div class="entries-grid">
-
-      {% assign related_posts = site.episodes | where_exp: "post", "post.url != page.url" | sample: 2 %}
-
-      {% for post in related_posts %}
-        <div class="grid__item">
-          {% include archive-single.html %}
+    {% assign related_posts = site.episodes | where_exp: "post", "post.url != page.url" | sample: 2 %}
+        <div class="entries-grid">
+            {% for post in related_posts %}
+                {% include archive-single.html type="grid" %}
+            {% endfor %}
         </div>
-      {% endfor %}
-
-    </div>
 
   </div>
 
