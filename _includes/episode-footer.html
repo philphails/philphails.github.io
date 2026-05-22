@@ -10,7 +10,8 @@
       These conversations explore similar themes.
     </p>
 
-    {% assign related_posts = site.episodes | where_exp: "post", "post.url != page.url" | sample: 2 %}
+    {% for url in page.related_episodes %}
+        {% assign related_posts = site.episodes | where: "url", url | first %}
         <div class="entries-grid">
             {% for post in related_posts %}
                 {% include archive-single.html type="grid" %}
