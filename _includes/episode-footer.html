@@ -1,0 +1,77 @@
+<hr class="episode-divider">
+
+<div class="episode-footer">
+
+  <div class="episode-footer__cta">
+
+    <a href="https://www.youtube.com/@PhilPhails?sub_confirmation=1"
+       target="_blank"
+       rel="noopener noreferrer"
+       class="btn btn--inverse btn--large">
+      Subscribe on YouTube
+    </a>
+
+    <a href="/support/"
+       class="btn btn--light-outline btn--large">
+      Support the Project
+    </a>
+
+  </div>
+
+  <div class="episode-footer__related">
+
+    <h2>If This Resonated</h2>
+
+    <p>
+      These conversations explore similar themes.
+    </p>
+
+    <div class="entries-grid">
+
+      {% assign related_posts = site.episodes | where_exp: "post", "post.url != page.url" | sample: 2 %}
+
+      {% for post in related_posts %}
+        <div class="grid__item">
+          {% include archive-single.html %}
+        </div>
+      {% endfor %}
+
+    </div>
+
+  </div>
+
+  <div class="episode-footer__hubs">
+
+    <h3>Explore Themes</h3>
+
+    <div class="hub-buttons">
+
+      <a href="/mind/" class="btn btn--primary">Mind</a>
+
+      <a href="/body/" class="btn btn--primary">Body</a>
+
+      <a href="/spirit/" class="btn btn--primary">Spirit</a>
+
+      <a href="/philosophy/" class="btn btn--primary">Philosophy</a>
+
+    </div>
+
+  </div>
+
+  <div class="episode-footer__pagination">
+
+    {% if page.previous.url %}
+      <a href="{{ page.previous.url }}" class="btn btn--light-outline">
+        ← Previous Episode
+      </a>
+    {% endif %}
+
+    {% if page.next.url %}
+      <a href="{{ page.next.url }}" class="btn btn--light-outline">
+        Next Episode →
+      </a>
+    {% endif %}
+
+  </div>
+
+</div>
