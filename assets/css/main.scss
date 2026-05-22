@@ -54,3 +54,43 @@ search: false
   text-transform: uppercase;
   font-weight: 600;
 }
+
+.episode-footer {
+  margin-top: 4rem;
+}
+
+.episode-divider {
+  margin: 4rem 0;
+}
+
+.episode-footer__cta {
+  display: flex;
+  gap: 1rem;
+  flex-wrap: wrap;
+  margin-bottom: 4rem;
+}
+
+.episode-footer__related {
+  margin-bottom: 4rem;
+}
+
+.entries-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+  gap: 2rem;
+}
+
+.hub-buttons {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1rem;
+  margin-top: 1rem;
+  margin-bottom: 4rem;
+}
+
+.episode-footer__pagination {
+  display: flex;
+  justify-content: space-between;
+  gap: 1rem;
+  flex-wrap: wrap;
+}
