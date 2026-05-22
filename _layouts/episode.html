@@ -1,24 +1,41 @@
 ---
 layout: splash
 ---
-<!-- QUICK ACTIONS (IMPORTANT FOR CONVERSION) -->
-  <section class="episode-actions">
-    <a href="https://www.youtube.com/@PhilPhails?sub_confirmation=1"
-       target="_blank"
-       rel="noopener noreferrer"
-       class="btn btn--inverse btn--large">
-      Subscribe on YouTube
-    </a>
-    <a href="https://www.paypal.com/donate/?hosted_button_id=GGGL6YZNFGLCC"
-       class="btn btn--light-outline btn--large">
-      Support the Project
-    </a>
+{%- assign locale = page.locale | default: layout.locale | default: site.locale %}
 
-  </section>
+{% if page.header.overlay_color or page.header.overlay_image or page.header.image %}
+  {% include page__hero.html locale=locale %}
+{% elsif page.header.video.id and page.header.video.provider %}
+  {% include page__hero_video.html %}
+{% endif %}
 
-  <!-- CONTENT -->
-  <section class="episode-content">
-    {{ content }}
-  </section>
+<div id="main" role="main">
+  <article class="splash" itemscope itemtype="https://schema.org/CreativeWork"{% if page.locale %} lang="{{ page.locale }}"{% endif %}>
+    {% if page.title %}<meta itemprop="headline" content="{{ page.title | markdownify | strip_html | strip_newlines | escape_once }}">{% endif %}
+    {% if page.excerpt %}<meta itemprop="description" content="{{ page.excerpt | markdownify | strip_html | strip_newlines | escape_once }}">{% endif %}
+    {% if page.date %}<meta itemprop="datePublished" content="{{ page.date | date_to_xmlschema }}">{% endif %}
+    {% if page.last_modified_at %}<meta itemprop="dateModified" content="{{ page.last_modified_at | date_to_xmlschema }}">{% endif %}
 
-{% include episode-footer.html %}
+    <section class="page__content" itemprop="text">
+        <section class="episode-actions">
+            <a href="https://www.youtube.com/@PhilPhails?sub_confirmation=1"
+                target="_blank"
+                rel="noopener noreferrer"
+                class="btn btn--inverse btn--large">
+                Subscribe on YouTube
+            </a>
+            <a href="https://www.paypal.com/donate/?hosted_button_id=GGGL6YZNFGLCC"
+                class="btn btn--light-outline btn--large">
+                Support the Project
+            </a>
+        </section>
+
+    <!-- CONTENT -->
+        <section class="episode-content">
+            {{ content }}
+        </section>
+
+        {% include episode-footer.html %}
+    </section> 
+  </article>
+</div>
