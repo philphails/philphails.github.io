@@ -9,7 +9,7 @@
     <p>
       These conversations explore similar themes.
     </p>
-
+    console.log(page.related_episodes);
     {% for url in page.related_episodes %}
         {% assign related_posts = site.episodes | where: "url", url | first %}
         <div class="entries-grid">
