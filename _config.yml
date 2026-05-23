@@ -338,7 +338,7 @@ defaults:
       path: ""
       type: episodes
     values:
-      layout: splash
+      layout: episode
       classes: wide
       author_profile: false
       share: true
