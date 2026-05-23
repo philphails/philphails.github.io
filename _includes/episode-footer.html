@@ -4,118 +4,116 @@
 
   <div class="episode-footer__related">
 
-  <h2>If This Resonated</h2>
+    <h2>If This Resonated</h2>
 
-  <p>These conversations explore similar themes.</p>
+    <p>These conversations explore similar themes.</p>
 
-  <div class="entries-grid">
+    <div class="entries-grid">
 
-    {%- comment -%}
-    1. MANUAL OVERRIDE
-    {%- endcomment -%}
+      {%- comment -%}
+      1. MANUAL OVERRIDE (episode_number-based)
+      {%- endcomment -%}
 
-    {% if page.related_episodes and page.related_episodes.size > 0 %}
+      {% if page.related_episodes and page.related_episodes.size > 0 %}
 
-      {% for url in page.related_episodes %}
+        {% for num in page.related_episodes %}
 
-        {% assign post = site.episodes | where: "url", url | first %}
+          {% assign post = site.episodes | where: "episode_number", num | first %}
 
-        {% if post %}
-          {% include archive-single.html post=post type="grid" %}
-        {% endif %}
-
-      {% endfor %}
-
-
-    {%- comment -%}
-    2. FALLBACK: CATEGORY MATCH (ANY OVERLAP)
-    {%- endcomment -%}
-
-    {% else %}
-
-      {% assign fallback_count = 0 %}
-
-      {% for post in site.episodes %}
-
-        {% if post.url != page.url %}
-
-          {% assign shared = false %}
-
-          {% for c in post.categories %}
-            {% if page.categories contains c %}
-              {% assign shared = true %}
-            {% endif %}
-          {% endfor %}
-
-          {% if shared and fallback_count < 2 %}
-
+          {% if post %}
             {% include archive-single.html post=post type="grid" %}
+          {% endif %}
 
-            {% assign fallback_count = fallback_count | plus: 1 %}
+        {% endfor %}
+
+
+      {%- comment -%}
+      2. FALLBACK: CATEGORY MATCH (ANY OVERLAP)
+      {%- endcomment -%}
+
+      {% else %}
+
+        {% assign fallback_count = 0 %}
+
+        {% for post in site.episodes %}
+
+          {% if post.url != page.url %}
+
+            {% assign shared = false %}
+
+            {% for c in post.categories %}
+              {% if page.categories contains c %}
+                {% assign shared = true %}
+              {% endif %}
+            {% endfor %}
+
+            {% if shared and fallback_count < 2 %}
+
+              {% include archive-single.html post=post type="grid" %}
+
+              {% assign fallback_count = fallback_count | plus: 1 %}
+
+            {% endif %}
 
           {% endif %}
 
-        {% endif %}
+        {% endfor %}
 
-      {% endfor %}
+      {% endif %}
 
-    {% endif %}
+    </div>
 
   </div>
 
-</div>
-
   <div class="episode-footer__hubs">
 
-  <h3>Explore Themes</h3>
+    <h3>Explore Themes</h3>
 
-<div class="hub-buttons">
+    <div class="hub-buttons">
 
-  <a id="context-button" href="/episodes/" class="btn btn--primary">
-    All Episodes
-  </a>
+      <a id="context-button" href="/episodes/" class="btn btn--primary">
+        All Episodes
+      </a>
 
-</div>
+    </div>
 
-<script>
-document.addEventListener("DOMContentLoaded", function () {
+    <script>
+    document.addEventListener("DOMContentLoaded", function () {
 
-  const params = new URLSearchParams(window.location.search);
+      const params = new URLSearchParams(window.location.search);
+      const source = params.get("source");
+      const button = document.getElementById("context-button");
 
-  const source = params.get("source");
+      const sources = {
+        mind: {
+          url: "/mind/",
+          label: "Return to Mind"
+        },
+        body: {
+          url: "/body/",
+          label: "Return to Body"
+        },
+        spirit: {
+          url: "/spirit/",
+          label: "Return to Spirit"
+        },
+        philosophy: {
+          url: "/philosophy/",
+          label: "Return to Philosophy"
+        },
+        psychology: {
+          url: "/psychology/",
+          label: "Return to Psychology"
+        }
+      };
 
-  const button = document.getElementById("context-button");
+      if (source && sources[source]) {
+        button.href = sources[source].url;
+        button.textContent = sources[source].label;
+      }
 
-  const sources = {
-    mind: {
-      url: "/mind/",
-      label: "Return to Mind"
-    },
-    body: {
-      url: "/body/",
-      label: "Return to Body"
-    },
-    spirit: {
-      url: "/spirit/",
-      label: "Return to Spirit"
-    },
-    philosophy: {
-      url: "/philosophy/",
-      label: "Return to Philosophy"
-    },
-    psychology: {
-      url: "/psychology/",
-      label: "Return to Psychology"
-    }
-  };
-
-  if (source && sources[source]) {
-    button.href = sources[source].url;
-    button.textContent = sources[source].label;
-  }
-
-});
-</script>
+    });
+    </script>
 
   </div>
 
@@ -135,17 +133,23 @@ document.addEventListener("DOMContentLoaded", function () {
 
   </div>
 
-
   <div class="episode-footer__pagination">
 
-    {% if page.previous.url %}
-      <a href="{{ page.previous.url }}" class="btn btn--light-outline">
+    {% assign prev = site.episodes | where: "episode_number", page.episode_number | first %}
+    {% assign prev_num = page.episode_number | minus: 1 %}
+    {% assign next_num = page.episode_number | plus: 1 %}
+
+    {% assign prev_post = site.episodes | where: "episode_number", prev_num | first %}
+    {% assign next_post = site.episodes | where: "episode_number", next_num | first %}
+
+    {% if prev_post %}
+      <a href="{{ prev_post.url }}" class="btn btn--light-outline">
         ← Previous Episode
       </a>
     {% endif %}
 
-    {% if page.next.url %}
-      <a href="{{ page.next.url }}" class="btn btn--light-outline">
+    {% if next_post %}
+      <a href="{{ next_post.url }}" class="btn btn--light-outline">
         Next Episode →
       </a>
     {% endif %}
