@@ -18,11 +18,16 @@
         <img src="{{ teaser | relative_url }}" alt="">
       </div>
     {% endif %}
+    {% assign post_url = post.url | relative_url %}
+
+    {% if include.source %}
+      {% assign post_url = post_url | append: "?source=" | append: include.source %}
+    {% endif %}
     <h2 class="archive__item-title no_toc p-name" itemprop="headline">
       {% if post.link %}
-        <a href="{{ post.link }}">{{ title }}</a> <a class="u-url" href="{{ post.url | relative_url }}" rel="permalink"><i class="fas fa-link" aria-hidden="true" title="permalink"></i><span class="sr-only">Permalink</span></a>
+        <a href="{{ post.link | default: post_url }}">{{ title }}</a> <a class="u-url" href="{{ post.url | relative_url }}" rel="permalink"><i class="fas fa-link" aria-hidden="true" title="permalink"></i><span class="sr-only">Permalink</span></a>
       {% else %}
-        <a class="u-url" href="{{ post.url | relative_url }}" rel="permalink">{{ title }}</a>
+        <a class="u-url" href="{{ post_url }}" rel="permalink">{{ title }}</a>
       {% endif %}
     </h2>
     {% include page__meta.html locale=locale type=include.type %}

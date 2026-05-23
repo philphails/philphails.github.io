@@ -71,6 +71,6 @@ Ultimately, this category is about learning how to live inside your own experien
 
 <div class="entries-grid">
   {% for post in posts %}
-    {% include archive-single.html type="grid" %}
+    {% include archive-single.html type="grid" source="mind" %}
   {% endfor %}
 </div>

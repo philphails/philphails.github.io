@@ -79,6 +79,6 @@ Ultimately, this category matters because it brings experience back into contact
 
 <div class="entries-grid">
   {% for post in posts %}
-    {% include archive-single.html type="grid" %}
+    {% include archive-single.html type="grid" source="body" %}
   {% endfor %}
 </div>

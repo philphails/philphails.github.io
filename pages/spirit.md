@@ -79,6 +79,6 @@ Ultimately, this category helps bring attention back to what is already here: ex
 
 <div class="entries-grid">
   {% for post in posts %}
-    {% include archive-single.html type="grid" %}
+    {% include archive-single.html type="grid" source="spirit" %}
   {% endfor %}
 </div>

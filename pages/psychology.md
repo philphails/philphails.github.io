@@ -73,6 +73,6 @@ sidebar:
 
 <div class="entries-grid">
   {% for post in posts %}
-    {% include archive-single.html type="grid" %}
+    {% include archive-single.html type="grid" source="psychology" %}
   {% endfor %}
 </div>
