@@ -74,11 +74,6 @@ search: false
   margin-bottom: 4rem;
 }
 
-.entries-grid {
-  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
-  gap: 2rem;
-}
-
 .hub-buttons {
   display: flex;
   flex-wrap: wrap;
