@@ -63,57 +63,73 @@ Start by exploring episodes. Read the articles. Watch the conversations. Follow 
 
 {% include feature_row %}
 
-<h2>Episodes Like</h2>
-  {% assign featured = site.episodes | where: "featured", true | limit: 4 | sort: "episode_number" | reverse %}
-  <div class="entries-grid">
-    {% for post in featured %}
-      {% include archive-single.html type="grid" %}
-    {% endfor %}
-  </div>
+<h2>Episodes Like This</h2>
 
-<p>
-<a href="/episodes/" class="btn btn--light-outline">View all episodes</a>
-</p>
+{% assign featured = site.episodes | where: "featured", true | sort: "episode_number" | reverse | limit: 4 %}
 
-<h2>If It Resonates</h2>
+<div class="entries-grid">
+  {% for post in featured %}
+    {% include archive-single.html type="grid" %}
+  {% endfor %}
+</div>
 
-<p>
-If something here connects with you, there are a few ways to go deeper.
-</p>
-<p>
-  <a class="btn btn--primary btn--large"
-     href="https://www.youtube.com/@PhilPhails?sub_confirmation=1"
-     target="_blank"
-     rel="noopener">
-     Join the Conversation on YouTube
+<p style="margin-top: 1rem;">
+  <a href="/episodes/" class="btn btn--light-outline">
+    View all Episodes
   </a>
 </p>
 
-<ul>
-  <li>Like and comment on episodes that speak to you</li>
-  <li>Share conversations that might help someone else</li>
-</ul>
+<hr class="hub-divider">
 
-<p>
-This project grows through real engagement — not algorithms.
-</p>
+<div class="hub-footer">
 
-<h2>Support the Work</h2>
+  <div class="hub-footer-actions">
 
-<p>
-Phil Phails is an independent podcast.
-</p>
+    <!-- SUBSCRIBE -->
+    <div class="hub-action">
+      <div class="hub-action-title">
+        <span class="hub-icon">▶</span>
+        <h3>Subscribe</h3>
+      </div>
 
-<p>
-If these conversations add value to your life, you can help support the ongoing creation of this work.
-</p>
+      <p>New conversations on mind, body, spirit, philosophy, and psychology.</p>
 
-<a href="/support" class="btn btn--primary">
-Become a Supporter
-</a>
+      <a class="hub-button primary"
+         href="https://www.youtube.com/@PhilPhails?sub_confirmation=1"
+         target="_blank"
+         rel="noopener">
+        Subscribe on YouTube
+      </a>
+    </div>
 
-<h2>Why This Exists</h2>
+    <!-- SUPPORT -->
+    <div class="hub-action">
+      <div class="hub-action-title">
+        <span class="hub-icon">♥</span>
+        <h3>Support</h3>
+      </div>
 
-<p>
-The goal is simple — to create conversations that help people think, feel, and live a little differently than before.
-</p>
+      <p>Help keep Phil Phails independent and growing.</p>
+
+      <a class="hub-button secondary"
+         href="https://www.paypal.com/donate/?hosted_button_id=GGGL6YZNFGLCC">
+        Support the Work
+      </a>
+    </div>
+
+    <!-- WHY / CONTEXT -->
+    <div class="hub-action">
+      <div class="hub-action-title">
+        <span class="hub-icon">⟡</span>
+        <h3>Why This Exists</h3>
+      </div>
+
+      <p>
+        Conversations designed to help people think more clearly, feel more honestly, and live with more intention.
+      </p>
+
+    </div>
+
+  </div>
+
+</div>
