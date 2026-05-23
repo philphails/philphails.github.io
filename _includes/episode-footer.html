@@ -69,17 +69,55 @@
 
     <h3>Explore Themes</h3>
 
-    <div class="hub-buttons">
+  <h3>Explore Themes</h3>
 
-      <a href="/mind/" class="btn btn--primary">Mind</a>
+<div class="hub-buttons">
 
-      <a href="/body/" class="btn btn--primary">Body</a>
+  <a id="context-button" href="/episodes/" class="btn btn--primary">
+    All Episodes
+  </a>
 
-      <a href="/spirit/" class="btn btn--primary">Spirit</a>
+</div>
 
-      <a href="/philosophy/" class="btn btn--primary">Philosophy</a>
+<script>
+document.addEventListener("DOMContentLoaded", function () {
 
-    </div>
+  const params = new URLSearchParams(window.location.search);
+
+  const source = params.get("source");
+
+  const button = document.getElementById("context-button");
+
+  const sources = {
+    mind: {
+      url: "/mind/",
+      label: "Return to Mind"
+    },
+    body: {
+      url: "/body/",
+      label: "Return to Body"
+    },
+    spirit: {
+      url: "/spirit/",
+      label: "Return to Spirit"
+    },
+    philosophy: {
+      url: "/philosophy/",
+      label: "Return to Philosophy"
+    },
+    psychology: {
+      url: "/psychology/",
+      label: "Return to Psychology"
+    }
+  };
+
+  if (source && sources[source]) {
+    button.href = sources[source].url;
+    button.textContent = sources[source].label;
+  }
+
+});
+</script>
 
   </div>
 
