@@ -1,7 +1,8 @@
 ---
-title: "Spirit"
-layout: archive
+layout: hub
 classes: wide
+category: spirit
+title: "Spirit"
 permalink: /spirit/
 author_profile: false
 
@@ -10,75 +11,96 @@ header:
 sidebar:
   nav: "mind-body-spirit"
 ---
-<h2>Introduction</h2>
-<p>
-Spirit, in the context of Phil Phails, is not about religion or doctrine—it is about meaning, presence, and the felt sense that life is more than thought alone. It is the part of experience that asks deeper questions: Who am I beyond my thoughts? What is this awareness that notices everything? How do I live with uncertainty, suffering, and change without losing connection to what feels true?
-</p>
+<section class="hub-hero">
+  <p>Spirit is the part of experience that feels deeper than thought—presence, awareness, meaning, and lived connection.</p>
+</section>
 
-<p>
-Across these conversations, spirit shows up in moments of reflection, silence, discomfort, insight, and openness. It often emerges when intellectual frameworks fall short and something more direct is needed. Not an answer, but a way of being with experience. This category explores that space where philosophy, psychology, and lived awareness begin to overlap.
-</p>
+<section class="hub-context">
+  <p>
+    These episodes explore what it means to be aware, to feel meaning, and to stay present with uncertainty.
+  </p>
+  <p>
+    Start with any episode below—each one approaches spirit through lived experience, not belief.
+  </p>
+</section>
 
-<h2>Core Summary</h2>
-<p>
-Spirit is often misunderstood as something separate from daily life, but in practice it appears through ordinary experience when attention becomes more open and less controlled by mental noise. It is the shift from being completely absorbed in thinking to noticing the fact that thinking is happening at all.
-</p>
+<hr class="hub-divider" />
 
-<p>
-In the podcast, spiritual themes arise naturally during discussions of consciousness, impermanence, identity, and suffering. These are not treated as abstract metaphysical topics but as direct inquiries into lived reality. When someone asks whether consciousness has a ground, or whether the self is fixed, or whether meaning can be found in suffering, they are already entering the territory of spirit—because the question points back to experience itself.
-</p>
+<section class="hub-episodes">
+  <h2>Episodes</h2>
 
-<p>
-A recurring theme is awareness. Awareness is not something we produce; it is the background in which everything appears. Thoughts come and go, emotions rise and fall, sensations shift, but awareness remains present as the space in which all of it unfolds. This recognition often brings a subtle but important shift: instead of being inside experience, there is a sense of witnessing experience.
-</p>
+  <div class="entries-wrapper">
+    <div class="entries-grid">
+      {% assign posts = site.episodes | where_exp: "post", "post.categories contains 'spirit'" | sort: "episode_number" | reverse %}
+      {% for post in posts %}
+        {% include archive-single.html type="grid" source="spirit" %}
+      {% endfor %}
+    </div>
+  </div>
+</section>
 
-<p>
-Another key thread is impermanence. Everything experienced—thoughts, emotions, identities, relationships, even beliefs about reality—is constantly changing. This can feel destabilizing at first, but it also creates relief. If nothing is fixed, then nothing is permanently trapped. Suffering, too, is not static. It moves. It changes form. It passes.
-</p>
+<hr class="hub-divider" />
 
-<p>
-Spirit also shows up in how meaning is constructed. People often assume meaning must be found or achieved, but in practice it is something that emerges through attention and participation. Meaning is not separate from life—it is created in how life is met. A difficult conversation, a moment of silence, or even uncertainty itself can become meaningful when experienced fully rather than resisted.
-</p>
+<section class="hub-core">
+  <h2>Core Meaning</h2>
 
-<p>
-In Phil Phails conversations, spiritual inquiry is often grounded in philosophical traditions like Buddhism, which emphasize direct experience over belief. Concepts like emptiness or non-self are not treated as abstract theories but as ways of seeing experience more clearly. The point is not to adopt a new belief system, but to notice how identity and reality are continuously constructed in real time.
-</p>
+  <p>
+    Spirit in Phil Phails is not treated as religion or belief—it is the experience of awareness itself, before it becomes language or explanation.
+  </p>
 
-<p>
-There is also a consistent tension between thinking and being. Thinking tries to resolve experience by explaining it. Being allows experience to unfold without immediately turning it into a problem to solve. Spirit lives closer to being. It is what remains when the need for certainty relaxes slightly and attention becomes more open to what is already here.
-</p>
+  <p>
+    It appears when thinking slows down enough for attention to notice itself. Instead of being fully absorbed in thoughts, there is a shift toward recognizing that experience is happening in real time.
+  </p>
 
-<p>
-This category also includes the emotional dimension of existential reflection. Questions about mortality, purpose, and impermanence are not just intellectual—they are felt. They can create fear, openness, grief, or clarity. Spirit is not always peaceful or calm. It can be raw, uncertain, and deeply human. What matters is not the emotional tone, but the willingness to stay present with what arises.
-</p>
+  <p>
+    Across episodes, spiritual themes emerge through conversations about consciousness, identity, impermanence, and suffering. These are not abstract topics—they are direct encounters with lived experience.
+  </p>
 
-<p>
-Another important aspect is connection. Spirit often appears in moments of genuine contact—with other people, with nature, or with oneself. These moments are not dramatic; they are simple. A conversation that feels real. A quiet walk where the mind softens. A moment of honesty where something is admitted without defense. These experiences create a sense of coherence that thinking alone cannot produce.
-</p>
+  <p>
+    A central idea is awareness as background. Thoughts, emotions, and sensations come and go, but awareness is always present. This recognition often changes how experience is held—it becomes less personal and more spacious.
+  </p>
 
-<p>
-Across episodes, spirit is not positioned as an escape from reality but as a deeper engagement with it. It is not about leaving the world behind, but about seeing the world more clearly, without as much distortion from habit, fear, or assumption.
-</p>
+  <p>
+    Impermanence is another recurring thread. Everything changes: moods, identities, relationships, even beliefs. This can feel unsettling, but it also reduces the pressure to hold everything fixed or permanent.
+  </p>
 
-<h2>Why This Matters</h2>
-<p>
-Spirit matters because it addresses what thinking alone cannot resolve: the need for meaning, presence, and orientation in a constantly changing world. Without it, life can feel fragmented or overly conceptual, as if everything is being analyzed but not fully lived.
-</p>
+  <p>
+    Meaning is not treated as something separate that must be found. Instead, it emerges through attention and participation. How something is experienced matters as much as what is experienced.
+  </p>
 
-<p>
-When people reconnect with this dimension of experience, there is often more clarity, less reactivity, and a stronger sense of groundedness—even in uncertainty. It does not remove difficulty, but it changes the relationship to difficulty.
-</p>
+  <p>
+    Philosophical traditions like Buddhism often appear here, not as systems of belief but as ways of seeing experience more clearly. Ideas like emptiness or non-self point toward how identity is constructed moment by moment rather than being fixed.
+  </p>
 
-<p>
-Ultimately, this category helps bring attention back to what is already here: experience itself, unfolding moment by moment.
-</p>
+  <p>
+    There is also a tension between thinking and being. Thinking tries to explain experience. Being allows experience to unfold without immediate interpretation. Spirit lives closer to being—closer to direct contact with what is here.
+  </p>
 
-<h2>Related Episodes</h2>
+  <p>
+    Spirit is not separate from difficulty or emotion. It includes uncertainty, fear, openness, and clarity. What matters is the willingness to stay present with experience rather than immediately escaping into explanation.
+  </p>
 
-{% assign posts = site.episodes | where_exp: "post", "post.categories contains 'spirit'" | sort: "episode_number" | reverse %}
+  <p>
+    It also shows up in connection—moments of honesty, silence, nature, or conversation where something feels undistorted. These moments are simple but grounding.
+  </p>
 
-<div class="entries-grid">
-  {% for post in posts %}
-    {% include archive-single.html type="grid" source="spirit" %}
-  {% endfor %}
-</div>
+  <p>
+    Across conversations, spirit is not an escape from reality—it is a deeper contact with it.
+  </p>
+</section>
+
+<section class="hub-why">
+  <h2>Why This Matters</h2>
+
+  <p>
+    Spirit matters because it restores a sense of presence in a world that is often dominated by thinking and analysis.
+  </p>
+
+  <p>
+    It helps people relate to uncertainty without immediately trying to control or solve it.
+  </p>
+
+  <p>
+    This creates more space, more clarity, and a less reactive relationship with experience.
+  </p>
+</section>

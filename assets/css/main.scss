@@ -88,3 +88,107 @@ search: false
   gap: 1rem;
   flex-wrap: wrap;
 }
+
+.entries-grid::after {
+  content: "";
+  display: block;
+  clear: both;
+}
+
+/* Footer container */
+.hub-footer {
+  margin-top: 3rem;
+  padding: 2rem 0;
+}
+
+/* Grid layout (desktop) */
+.hub-footer-actions {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 1.25rem;
+  margin-top: 1.5rem;
+}
+
+/* Card style */
+.hub-action {
+  padding: 1.25rem;
+  border: 1px solid rgba(0,0,0,0.08);
+  border-radius: 12px;
+  background: #fff;
+}
+
+/* Title row with icon */
+.hub-action-title {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  margin-bottom: 0.5rem;
+}
+
+.hub-icon {
+  font-size: 1.1rem;
+  opacity: 0.8;
+}
+
+/* Typography */
+.hub-action h3 {
+  margin: 0;
+  font-size: 1.05rem;
+}
+
+.hub-action p {
+  margin: 0.5rem 0 1rem;
+  opacity: 0.8;
+  line-height: 1.4;
+}
+
+/* Buttons */
+.hub-button {
+  display: inline-block;
+  padding: 0.7rem 1rem;
+  border-radius: 10px;
+  text-decoration: none;
+  font-weight: 500;
+  font-size: 0.95rem;
+  width: 100%;
+  text-align: center;
+}
+
+/* Primary CTA (YouTube) */
+.hub-button.primary {
+  background: #111;
+  color: #fff;
+}
+
+/* Secondary CTA (Donate) */
+.hub-button.secondary {
+  background: #f2f2f2;
+  color: #111;
+}
+
+/* Links row */
+.hub-footer-links {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.75rem;
+}
+
+.hub-footer-links a {
+  text-decoration: none;
+  border-bottom: 1px solid transparent;
+}
+
+.hub-footer-links a:hover {
+  border-bottom: 1px solid currentColor;
+}
+
+/* Desktop upgrade */
+@media (min-width: 768px) {
+  .hub-footer-actions {
+    grid-template-columns: repeat(3, 1fr);
+  }
+
+  .hub-button {
+    width: auto;
+  }
+}

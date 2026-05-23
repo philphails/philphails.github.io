@@ -1,76 +1,91 @@
 ---
-title: "Mind"
-layout: archive
+category: mind
+layout: hub
 classes: wide
-permalink: /mind/
 author_profile: false
+sidebar:
+  nav: "mind-body-spirit"
+title: "Mind"
+permalink: /mind/
 
 header:
   image: /assets/images/mindPageImage.jpg
-sidebar:
-  nav: "mind-body-spirit"
 ---
-<h2>Introduction</h2>
-<p>
-The mind is where experience takes shape. It’s where thoughts form, attention moves, stories build, and meaning is constantly created out of what we perceive. In everyday life, we rarely notice the mind itself—we notice what it produces: worry, insight, memory, judgment, imagination. This category explores how thinking works, how awareness feels from the inside, and how our mental patterns shape identity and behavior.
-</p>
+<section class="hub-hero">
+  <p>The mind is where experience becomes thought, story, and meaning. This page gathers conversations that explore how thinking shapes identity, emotion, and awareness.</p>
+</section>
 
-<p>
-Across Phil Phails conversations, the mind shows up as both a tool and a challenge. It helps us solve problems and plan our lives, but it also generates anxiety, confusion, and self-doubt when it becomes rigid or overwhelmed. Understanding the mind isn’t about controlling it perfectly. It’s about learning how to relate to it with more clarity, space, and honesty.
-</p>
+<section class="hub-context">
+  <p>
+    These episodes look at attention, thought patterns, self-talk, and awareness in real life—not as theory, but as lived experience.
+  </p>
+  <p>
+    Start with any episode below, then explore how the mind shows up across different conversations.
+  </p>
+</section>
 
-<h2>Core Summary</h2>
-<p>
-The mind is not a single thing—it is a process. It is constantly moving, reacting, remembering, predicting, and interpreting. In the podcast, this shows up in conversations about attention, consciousness, decision-making, and the inner narratives we carry about who we are.
-</p>
+<hr class="hub-divider" />
 
-<p>
-One of the recurring themes is how easily we confuse thoughts with truth. A thought appears and feels real, but it is still just an event in awareness. When we don’t see this clearly, we become fused with mental content. Anxiety becomes “I am anxious,” rather than “anxiety is present.” This subtle shift in language reflects a deeper shift in identity: from being inside thoughts to noticing thoughts.
-</p>
+<section class="hub-episodes">
+  <h2>Episodes</h2>
 
-<p>
-Another key thread is attention. Attention is the steering mechanism of experience. What we focus on becomes large, emotionally charged, and real. What we ignore fades into the background. Many struggles discussed in Phil Phails episodes—ADHD, overwhelm, emotional reactivity—can be understood as challenges of attention regulation rather than personal failure. The mind is not broken; it is often overloaded, reactive, or trained in unhelpful directions.
-</p>
+  <div class="entries-wrapper">
+    <div class="entries-grid">
+      {% assign posts = site.episodes | where_exp: "post", "post.categories contains 'mind'" | sort: "episode_number" | reverse %}
+      {% for post in posts %}
+        {% include archive-single.html type="grid" source="mind" %}
+      {% endfor %}
+    </div>
+  </div>
+</section>
 
-<p>
-The podcast also explores the mind through philosophy and contemplative traditions. Buddhist perspectives in particular challenge the idea of a fixed, independent self. Instead of a single “thinker” behind thoughts, there is a stream of mental events arising and passing. This doesn’t diminish identity—it makes it more fluid, less rigid, and often less painful. When identity softens, there is more room for choice, compassion, and curiosity.
-</p>
+<hr class="hub-divider" />
 
-<p>
-Psychology enters these conversations through practical lived experience. People don’t suffer only from big philosophical questions—they suffer from looping thoughts, self-criticism, rumination, and emotional patterns that feel automatic. Understanding cognitive patterns helps create distance from them. Not to suppress them, but to see them clearly enough that they lose some of their control.
-</p>
+<section class="hub-core">
+  <h2>Core Meaning</h2>
 
-<p>
-Mindfulness practices appear throughout the podcast as a direct way of working with the mind. Not as a technique for perfection, but as a way of seeing experience more clearly. Paying attention to breath, noticing thoughts arise, or observing emotional reactions without immediately acting on them all build a different relationship with mental life. Over time, this creates more space between stimulus and response.
-</p>
+  <p>
+    The mind is a process, not a fixed thing. It moves through memory, prediction, emotion, and interpretation constantly. Most of what we call “self” is this ongoing activity being experienced from the inside.
+  </p>
 
-<p>
-A recurring insight across episodes is that the mind is shaped by conditions: environment, history, relationships, biology, and culture. This perspective reduces self-blame and increases understanding. Instead of asking “what’s wrong with me,” the question becomes “what shaped this pattern?” That shift alone changes how people relate to their internal experience.
-</p>
+  <p>
+    Across Phil Phails conversations, the mind appears as both a tool and a source of difficulty. It helps us plan and understand, but it also generates anxiety, self-doubt, and looping thoughts when it becomes rigid or overloaded.
+  </p>
 
-<p>
-The mind is also where meaning is constructed. We interpret events, assign value, and build narratives that define our lives. Two people can experience the same event and walk away with entirely different internal realities. This makes the mind both powerful and fragile. It can create suffering through interpretation, but it can also create healing through re-interpretation.
-</p>
+  <p>
+    A key theme is how easily we identify with thoughts. A thought feels like truth, but it is simply an event in awareness. When this is unclear, people become fused with mental content rather than observing it.
+  </p>
 
-<h2>Why This Matters</h2>
-<p>
-The mind shapes every experience you have, whether you are aware of it or not. When it is reactive or unclear, life feels heavier and more confusing than it needs to be. When it is observed with more awareness, there is more space, choice, and stability.
-</p>
+  <p>
+    Attention plays a central role. What we focus on becomes amplified, while everything else fades. Many experiences labeled as stress, overwhelm, or distraction are actually patterns of attention under strain rather than personal failure.
+  </p>
 
-<p>
-Understanding the mind helps reduce unnecessary suffering. It allows you to notice patterns instead of being controlled by them. It also deepens empathy, because you begin to see that other people are also moving through their own internal narratives.
-</p>
+  <p>
+    The podcast also draws from contemplative and psychological perspectives that question the idea of a fixed self. Instead of one stable thinker, there is a stream of mental events that can be observed, interrupted, or softened through awareness.
+  </p>
 
-<p>
-Ultimately, this category is about learning how to live inside your own experience with more honesty and less confusion.
-</p>
+  <p>
+    Mindfulness practices appear as practical tools for creating space around thought. Not to eliminate thinking, but to see it clearly enough that it no longer dominates experience.
+  </p>
 
-<h2>Related Episodes</h2>
+  <p>
+    Over time, this shifts how identity is experienced. Thoughts still arise, but they no longer define reality in the same way. There is more space between what happens in the mind and how it is lived.
+  </p>
+</section>
 
-{% assign posts = site.episodes | where_exp: "post", "post.categories contains 'mind'" | sort: "episode_number" | reverse %}
+<section class="hub-why">
+  <h2>Why This Matters</h2>
 
-<div class="entries-grid">
-  {% for post in posts %}
-    {% include archive-single.html type="grid" source="mind" %}
-  {% endfor %}
-</div>
+  <p>
+    The mind shapes every experience, whether it is noticed or not. When it is reactive, life feels heavier than it needs to be.
+  </p>
+
+  <p>
+    Learning to observe mental patterns creates space between thought and reaction. That space is where clarity and choice appear.
+  </p>
+
+  <p>
+    This category matters because it helps people relate to their inner experience with more honesty and less confusion.
+  </p>
+</section>
+

@@ -342,3 +342,8 @@ defaults:
       classes: wide
       author_profile: false
       share: true
+
+youtube_url: https://www.youtube.com/@PhilPhails
+youtube_url_subscribe: https://www.youtube.com/@PhilPhails?sub_confirmation=1
+
+donate_url: https://www.paypal.com/donate/?hosted_button_id=GGGL6YZNFGLCC

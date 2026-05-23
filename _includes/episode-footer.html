@@ -1,18 +1,14 @@
-<hr class="episode-divider">
+<hr class="hub-divider">
 
-<div class="episode-footer">
+<div class="hub-footer episode-footer">
 
-  <div class="episode-footer__related">
+  <!-- RELATED EPISODES -->
+  <div class="hub-footer-section">
 
     <h2>If This Resonated</h2>
-
     <p>These conversations explore similar themes.</p>
 
     <div class="entries-grid">
-
-      {%- comment -%}
-      1. MANUAL OVERRIDE (episode_number-based)
-      {%- endcomment -%}
 
       {% if page.related_episodes and page.related_episodes.size > 0 %}
 
@@ -25,11 +21,6 @@
           {% endif %}
 
         {% endfor %}
-
-
-      {%- comment -%}
-      2. FALLBACK: CATEGORY MATCH (ANY OVERLAP)
-      {%- endcomment -%}
 
       {% else %}
 
@@ -65,77 +56,91 @@
 
   </div>
 
-  <div class="episode-footer__hubs">
+  <hr class="hub-divider">
 
-    <h3>Explore Themes</h3>
+  <!-- NAVIGATION HUB -->
+  <div class="hub-footer-actions">
 
-    <div class="hub-buttons">
+    <div class="hub-action">
+      <div class="hub-action-title">
+        <span class="hub-icon">⟡</span>
+        <h3>Explore Episodes</h3>
+      </div>
 
-      <a id="context-button" href="/episodes/" class="btn btn--primary">
+      <p>Browse all conversations across mind, body, spirit, philosophy, and psychology.</p>
+
+      <a class="hub-button secondary" href="/episodes/">
         All Episodes
       </a>
-
     </div>
 
-    <script>
-    document.addEventListener("DOMContentLoaded", function () {
+    <div class="hub-action">
+      <div class="hub-action-title">
+        <span class="hub-icon">↩</span>
+        <h3>Return to Hub</h3>
+      </div>
 
-      const params = new URLSearchParams(window.location.search);
-      const source = params.get("source");
-      const button = document.getElementById("context-button");
+      <p>Go deeper into the theme behind this episode.</p>
 
-      const sources = {
-        mind: {
-          url: "/mind/",
-          label: "Return to Mind"
-        },
-        body: {
-          url: "/body/",
-          label: "Return to Body"
-        },
-        spirit: {
-          url: "/spirit/",
-          label: "Return to Spirit"
-        },
-        philosophy: {
-          url: "/philosophy/",
-          label: "Return to Philosophy"
-        },
-        psychology: {
-          url: "/psychology/",
-          label: "Return to Psychology"
-        }
-      };
+      <p class="hub-footer-links">
 
-      if (source && sources[source]) {
-        button.href = sources[source].url;
-        button.textContent = sources[source].label;
-      }
+        {% assign hub = page.categories[0] %}
 
-    });
-    </script>
+        {% if hub == "mind" %}
+          <a href="/mind/">Mind</a>
+
+        {% elsif hub == "body" %}
+          <a href="/body/">Body</a>
+
+        {% elsif hub == "spirit" %}
+          <a href="/spirit/">Spirit</a>
+
+        {% elsif hub == "philosophy" %}
+          <a href="/philosophy/">Philosophy</a>
+
+        {% elsif hub == "psychology" %}
+          <a href="/psychology/">Psychology</a>
+
+        {% else %}
+          <a href="/episodes/">Episodes</a>
+        {% endif %}
+
+      </p>
+    </div>
+
+    <div class="hub-action">
+      <div class="hub-action-title">
+        <span class="hub-icon">▶</span>
+        <h3>Subscribe</h3>
+      </div>
+
+      <p>New conversations on resilience, identity, and personal growth.</p>
+
+      <a class="hub-button primary"
+         href="https://www.youtube.com/@PhilPhails?sub_confirmation=1"
+         target="_blank" rel="noopener">
+        Subscribe on YouTube
+      </a>
+    </div>
+
+    <div class="hub-action">
+      <div class="hub-action-title">
+        <span class="hub-icon">♥</span>
+        <h3>Support</h3>
+      </div>
+
+      <p>Help keep Phil Phails independent and growing.</p>
+
+      <a class="hub-button secondary" href="/support/">
+        Donate
+      </a>
+    </div>
 
   </div>
 
-  <div class="episode-footer__cta">
-
-    <a href="https://www.youtube.com/@PhilPhails?sub_confirmation=1"
-       target="_blank"
-       rel="noopener noreferrer"
-       class="btn btn--inverse btn--large">
-      Subscribe on YouTube
-    </a>
-
-    <a href="/support/"
-       class="btn btn--light-outline btn--large">
-      Support the Project
-    </a>
-
-  </div>
-
+  <!-- PAGINATION -->
   <div class="episode-footer__pagination">
 
-    {% assign prev = site.episodes | where: "episode_number", page.episode_number | first %}
     {% assign prev_num = page.episode_number | minus: 1 %}
     {% assign next_num = page.episode_number | plus: 1 %}
 

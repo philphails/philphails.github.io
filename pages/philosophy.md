@@ -1,7 +1,8 @@
 ---
-title: "Philosophy"
-layout: archive
+layout: hub
 classes: wide
+category: philosophy
+title: "Philosophy"
 permalink: /philosophy/
 author_profile: false
 
@@ -10,61 +11,80 @@ header:
 sidebar:
   nav: "mind-body-spirit"
 ---
-<h2>Introduction</h2>
-<section>
+<section class="hub-hero">
+  <p>Philosophy here is about lived questions—how we understand reality, identity, meaning, and uncertainty in everyday life.</p>
+</section>
+
+<section class="hub-context">
   <p>
-    Philosophy at Phil Phails is not about academic theory or abstract arguments alone. It is about the lived experience of questioning reality, identity, morality, and meaning. These conversations explore how we understand ourselves and the world we move through every day.
+    These conversations explore the space between thinking and living.
   </p>
   <p>
-    From ancient Buddhist ideas to Western debates on consciousness and free will, philosophy becomes a practical tool for reflection. It shows up in how we handle suffering, make decisions, and relate to uncertainty. This category brings together conversations that sit at the edge of thinking and living.
+    Start anywhere below—each episode approaches philosophy through real experience, not theory.
   </p>
 </section>
 
-<section>
-  <h2>Core Ideas in Philosophy</h2>
+<hr class="hub-divider" />
+
+<section class="hub-episodes">
+  <h2>Episodes</h2>
+
+  <div class="entries-wrapper">
+    <div class="entries-grid">
+      {% assign posts = site.episodes | where_exp: "post", "post.categories contains 'philosophy'" | sort: "episode_number" | reverse %}
+      {% for post in posts %}
+        {% include archive-single.html type="grid" source="philosophy" %}
+      {% endfor %}
+    </div>
+  </div>
+</section>
+
+<hr class="hub-divider" />
+
+<section class="hub-core">
+  <h2>Core Meaning</h2>
+
   <p>
-    Philosophy in this context is less about finding final answers and more about learning how to stay with better questions. Across the episodes in this category, themes like consciousness, free will, impermanence, suffering, and identity come up repeatedly. These are not abstract problems reserved for classrooms. They are everyday tensions that appear when life does not behave the way we expect.
+    Philosophy in Phil Phails is not abstract theory—it is what happens when people seriously question how life works while still living inside it.
   </p>
 
   <p>
-    A recurring thread is the gap between how reality appears and how it might actually be structured. In conversations about consciousness, for example, we explore whether experience can be fully explained by physical processes or whether something more fundamental is at play. In discussions on free will, we examine whether our choices are truly ours or shaped by conditions we did not choose.
+    Across episodes, philosophy shows up in conversations about consciousness, identity, free will, suffering, and meaning. These are not distant academic problems—they are the background structure of how people experience their lives.
   </p>
 
   <p>
-    Buddhist philosophy often enters these conversations as a contrasting lens. Ideas like emptiness, dependent origination, and non-fixed identity challenge the assumption that there is a solid, unchanging self behind experience. Instead, experience is seen as fluid, interconnected, and constantly changing. This does not remove meaning from life. It changes how meaning is understood.
+    A recurring theme is the gap between appearance and structure. Experience feels solid and personal, yet many traditions suggest it is more fluid, conditional, and dependent than it seems. This tension creates both confusion and insight.
   </p>
 
   <p>
-    Western philosophy appears alongside this as a way of mapping structure, logic, and explanation. Physicalism, idealism, determinism, and ethics all become tools for framing the same questions from different angles. The tension between these traditions is where much of the insight in this category emerges.
+    Buddhist philosophy often enters as a way of softening fixed identity. Ideas like emptiness and impermanence challenge the assumption that there is a permanent “self” behind experience. Instead, experience is seen as changing, relational, and always in motion.
   </p>
 
   <p>
-    What makes philosophy practical here is not resolution, but perspective. Each episode shows how shifting the frame of a question can shift how we experience it emotionally and psychologically. Philosophy becomes less about solving and more about seeing.
+    Western philosophy adds another layer by focusing on explanation and structure—questions about physical reality, logic, ethics, and causality. When these perspectives meet, they don’t cancel each other out. They expand the range of how a question can be seen.
+  </p>
+
+  <p>
+    What makes philosophy practical in this context is not arriving at final answers, but noticing how different ways of thinking shift emotional experience. A question about identity can feel completely different depending on the framework used to approach it.
+  </p>
+
+  <p>
+    In that sense, philosophy becomes less about solving reality and more about learning how to relate to it with more awareness and less automatic certainty.
   </p>
 </section>
 
-<section>
+<section class="hub-why">
   <h2>Why This Matters</h2>
+
   <p>
-    Philosophy shapes how we interpret suffering, choice, and identity. Even when we are not aware of it, we are constantly living inside philosophical assumptions about who we are and what life means.
+    We are always operating inside assumptions about reality, identity, and meaning—even when we are not aware of them.
   </p>
+
   <p>
-    Exploring these ideas helps create distance from automatic thinking patterns. It allows space for reflection instead of reaction. This can reduce rigidity in how we view ourselves and others.
+    Philosophy makes those assumptions visible. That visibility creates space between experience and reaction.
   </p>
+
   <p>
-    In a fast-moving world, philosophy slows thinking down enough to notice what we are actually experiencing. That awareness can change how we respond to stress, relationships, and uncertainty.
-  </p>
-  <p>
-    Ultimately, philosophy matters because it influences how we live, even when we are not naming it. Making it conscious gives us more choice in how we engage with life.
+    In that space, people often find more clarity, flexibility, and openness in how they relate to life.
   </p>
 </section>
-
-<h2>Related Episodes</h2>
-
-{% assign posts = site.episodes | where_exp: "post", "post.categories contains 'philosophy'" | sort: "episode_number" | reverse %}
-
-<div class="entries-grid">
-  {% for post in posts %}
-    {% include archive-single.html type="grid" source="philosophy" %}
-  {% endfor %}
-</div>

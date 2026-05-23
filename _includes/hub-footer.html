@@ -1,0 +1,73 @@
+<section class="hub-footer">
+  <hr class="hub-divider" />
+
+  <h2>Continue Exploring</h2>
+
+  <div class="hub-footer-actions">
+
+    <!-- Subscribe -->
+    <div class="hub-action">
+      <div class="hub-action-title">
+        <span class="hub-icon">▶</span>
+        <h3>Subscribe</h3>
+      </div>
+      <p>New conversations on mind, body, spirit, psychology, philosophy, and personal growth.</p>
+      <a class="hub-button primary"
+         href="{{ site.youtube_url_subscribe | default: 'youtube_url: https://www.youtube.com/@PhilPhails?sub_confirmation=1' }}"
+         target="_blank" rel="noopener">
+        Subscribe on YouTube
+      </a>
+    </div>
+
+    <!-- Donate -->
+    <div class="hub-action">
+      <div class="hub-action-title">
+        <span class="hub-icon">♥</span>
+        <h3>Support</h3>
+      </div>
+      <p>Help keep Phil Phails independent and growing.</p>
+      <a class="hub-button secondary"
+         href="{{ site.donate_url | default: 'https://www.paypal.com/donate/?hosted_button_id=GGGL6YZNFGLCC' }}"
+         target="_blank" rel="noopener">
+        Support the Project
+      </a>
+    </div>
+
+    <!-- Explore -->
+   <div class="hub-action">
+  <div class="hub-action-title">
+    <span class="hub-icon">⟡</span>
+    <h3>Explore</h3>
+  </div>
+
+  <p>Move between different dimensions of the podcast.</p>
+
+  <p class="hub-footer-links">
+
+    {% assign current = page.category %}
+
+    {% unless current == "mind" %}
+      <a href="/mind/">Mind</a>
+    {% endunless %}
+
+    {% unless current == "body" %}
+      <a href="/body/">Body</a>
+    {% endunless %}
+
+    {% unless current == "spirit" %}
+      <a href="/spirit/">Spirit</a>
+    {% endunless %}
+
+    {% unless current == "philosophy" %}
+      <a href="/philosophy/">Philosophy</a>
+    {% endunless %}
+
+    {% unless current == "psychology" %}
+      <a href="/psychology/">Psychology</a>
+    {% endunless %}
+
+  </p>
+</div>
+
+  </div>
+</section>
