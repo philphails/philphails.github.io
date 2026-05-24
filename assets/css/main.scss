@@ -188,3 +188,36 @@ search: false
     width: auto;
   }
 }
+
+.btn--youtube {
+  background: #FF0000; /* YouTube red */
+  color: #ffffff;
+  border: 1px solid #FF0000;
+  font-weight: 600;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  gap: 0.5rem;
+  transition: all 0.2s ease;
+  text-decoration: none;
+}
+
+/* hover state */
+.btn--youtube:hover {
+  background: #cc0000; /* darker YouTube red */
+  border-color: #cc0000;
+  transform: translateY(-1px);
+}
+
+/* active / tap state */
+.btn--youtube:active {
+  transform: translateY(0px);
+  background: #b30000;
+  border-color: #b30000;
+}
+
+/* focus state (accessibility) */
+.btn--youtube:focus {
+  outline: 3px solid rgba(255, 0, 0, 0.3);
+  outline-offset: 2px;
+}

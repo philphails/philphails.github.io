@@ -73,12 +73,6 @@ Start by exploring episodes. Read the articles. Watch the conversations. Follow 
   {% endfor %}
 </div>
 
-<p style="margin-top: 1rem;">
-  <a href="/episodes/" class="btn btn--light-outline">
-    View all Episodes
-  </a>
-</p>
-
 <hr class="hub-divider">
 
 <div class="hub-footer">
@@ -94,11 +88,11 @@ Start by exploring episodes. Read the articles. Watch the conversations. Follow 
 
       <p>New conversations on mind, body, spirit, philosophy, and psychology.</p>
 
-      <a class="hub-button primary"
-         href="https://www.youtube.com/@PhilPhails?sub_confirmation=1"
-         target="_blank"
-         rel="noopener">
-        Subscribe on YouTube
+      <a href="https://www.youtube.com/@PhilPhails?sub_confirmation=1"
+        target="_blank"
+        rel="noopener noreferrer"
+        class="btn btn--youtube">
+        ▶ Subscribe on YouTube
       </a>
     </div>
 
@@ -127,6 +121,9 @@ Start by exploring episodes. Read the articles. Watch the conversations. Follow 
       <p>
         Conversations designed to help people think more clearly, feel more honestly, and live with more intention.
       </p>
+      <a class="hub-button secondary" href="/episodes/">
+        All Episodes
+      </a>
 
     </div>
 

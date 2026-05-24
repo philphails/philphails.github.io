@@ -61,52 +61,70 @@
   <!-- NAVIGATION HUB -->
   <div class="hub-footer-actions">
 
-    <div class="hub-action">
-      <div class="hub-action-title">
-        <span class="hub-icon">⟡</span>
-        <h3>Explore Episodes</h3>
-      </div>
-
-      <p>Browse all conversations across mind, body, spirit, philosophy, and psychology.</p>
-
-      <a class="hub-button secondary" href="/episodes/">
-        All Episodes
-      </a>
+  <div class="hub-action">
+    <div class="hub-action-title">
+      <span class="hub-icon">⟡</span>
+      <h3>Explore Episodes</h3>
     </div>
 
-    <div class="hub-action">
-      <div class="hub-action-title">
-        <span class="hub-icon">↩</span>
-        <h3>Return to Hub</h3>
-      </div>
+    <p>Browse all conversations across mind, body, spirit, philosophy, and psychology.</p>
 
-      <p>Go deeper into the theme behind this episode.</p>
+    <a class="hub-button secondary" href="/episodes/">
+      All Episodes
+    </a>
+  </div>
 
-      <p class="hub-footer-links">
 
-        {% assign hub = page.categories[0] %}
+  <div class="hub-action" id="hub-return" style="display:none;">
+  <div class="hub-action-title">
+    <span class="hub-icon">↩</span>
+    <h3>Return to Hub</h3>
+  </div>
 
-        {% if hub == "mind" %}
-          <a href="/mind/">Mind</a>
+  <p>Go deeper into the theme behind this episode.</p>
 
-        {% elsif hub == "body" %}
-          <a href="/body/">Body</a>
+  <a id="context-button" class="hub-button primary" href="#">
+    Return
+  </a>
+</div>
+<script>
+document.addEventListener("DOMContentLoaded", function () {
+  const params = new URLSearchParams(window.location.search);
+  const source = params.get("source");
 
-        {% elsif hub == "spirit" %}
-          <a href="/spirit/">Spirit</a>
+  const button = document.getElementById("context-button");
+  const wrapper = document.getElementById("hub-return");
 
-        {% elsif hub == "philosophy" %}
-          <a href="/philosophy/">Philosophy</a>
+  const sources = {
+    mind: {
+      url: "/mind/",
+      label: "Mind"
+    },
+    body: {
+      url: "/body/",
+      label: "Body"
+    },
+    spirit: {
+      url: "/spirit/",
+      label: "Spirit"
+    },
+    philosophy: {
+      url: "/philosophy/",
+      label: "Philosophy"
+    },
+    psychology: {
+      url: "/psychology/",
+      label: "Psychology"
+    }
+  };
 
-        {% elsif hub == "psychology" %}
-          <a href="/psychology/">Psychology</a>
-
-        {% else %}
-          <a href="/episodes/">Episodes</a>
-        {% endif %}
-
-      </p>
-    </div>
+  if (source && sources[source]) {
+    wrapper.style.display = "block";
+    button.href = sources[source].url;
+    button.textContent = sources[source].label;
+  }
+});
+</script>
 
     <div class="hub-action">
       <div class="hub-action-title">
@@ -116,10 +134,11 @@
 
       <p>New conversations on resilience, identity, and personal growth.</p>
 
-      <a class="hub-button primary"
-         href="https://www.youtube.com/@PhilPhails?sub_confirmation=1"
-         target="_blank" rel="noopener">
-        Subscribe on YouTube
+      <a href="https://www.youtube.com/@PhilPhails?sub_confirmation=1"
+        target="_blank"
+        rel="noopener noreferrer"
+        class="btn btn--youtube">
+        ▶ Subscribe on YouTube
       </a>
     </div>
 
