@@ -13,7 +13,6 @@ header:
 *This work is not backed by a network or studio. It exists because people choose to support it.*
 
 ---
-
 ## Patrons & Supporters
 
 This space exists because of people who choose to support independent conversation.
@@ -40,29 +39,103 @@ This space exists because of people who choose to support independent conversati
 
 ---
 
-## Become a Patron
+<section class="hub-footer support-monthly-patron">
 
-If these conversations have value in your life, you can help sustain them.
+  <h2>Become a Monthly Patron</h2>
 
-Your support helps cover:
-- Production and editing
-- Equipment and studio costs
-- Hosting and distribution
-- Time required to continue the work
+  <div class="hub-footer-actions">
 
-<a href="https://www.paypal.com/donate/?hosted_button_id=GGGL6YZNFGLCC" class="btn btn--primary">Support via PayPal</a>
+    <div class="hub-action">
 
-<a href="https://venmo.com/philphails" class="btn btn--primary">Support via Venmo</a>
+      <div class="hub-action-title">
+        <span class="hub-icon">♥</span>
+        <h3>Support with PayPal</h3>
+      </div>
 
----
+      <p>
+          Listener support keeps Phil Phails independent and growing.
+      </p>
 
-## One-Time Contributions
+      <a href="https://www.paypal.com/donate/?hosted_button_id=GGGL6YZNFGLCC"
+         target="_blank"
+         rel="noopener noreferrer"
+         class="btn btn--paypal">
+        Support via PayPal
+      </a>
 
-Prefer a one-time contribution? You can support the project directly:
+    </div>
 
-<a href="https://www.paypal.com/donate/?hosted_button_id=GGGL6YZNFGLCC" class="btn btn--inverse">Make a Donation</a>
+    <div class="hub-action">
 
-<a href="https://venmo.com/philphails" class="btn btn--inverse">Donate via Venmo</a>
+      <div class="hub-action-title">
+        <span class="hub-icon">◉</span>
+        <h3>Support with Venmo</h3>
+      </div>
+
+      <p>
+        Helps fund production, distribution, and new episodes.
+      </p>
+
+      <a href="https://venmo.com/philphails"
+         target="_blank"
+         rel="noopener noreferrer"
+         class="btn btn--venmo">
+        Support via Venmo
+      </a>
+
+    </div>
+
+  </div>
+
+  <h2>One-Time Contributions</h2>
+
+<div class="hub-footer-actions">
+
+  <!-- Contribution -->
+  <div class="hub-action">
+
+    <div class="hub-action-title">
+      <span class="hub-icon">↗</span>
+      <h3>Make a Contribution</h3>
+    </div>
+
+    <p>
+      If a conversation stayed with you, give back directly.
+    </p>
+
+    <a href="https://www.paypal.com/donate/?hosted_button_id=GGGL6YZNFGLCC"
+       target="_blank"
+       rel="noopener noreferrer"
+       class="btn btn--paypal">
+      Contribute with PayPal
+    </a>
+
+  </div>
+
+  <!-- Venmo -->
+  <div class="hub-action">
+
+    <div class="hub-action-title">
+      <span class="hub-icon">⟡</span>
+      <h3>Support Future Episodes</h3>
+    </div>
+
+    <p>
+      Small contributions help the project continue.
+    </p>
+
+    <a href="https://venmo.com/"
+       target="_blank"
+       rel="noopener noreferrer"
+       class="btn btn--venmo">
+      Contribute with Venmo
+    </a>
+
+  </div>
+
+</div>
+
+</section>
 
 ---
 
