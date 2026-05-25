@@ -17,26 +17,66 @@ These conversations are not built around certainty or expertise alone. They are 
 
 ---
 
-## The Philosophy
+<section class="hub-footer about-philosophy">
 
-Phil Phails exists at the intersection of:
-- Mind
-- Body
-- Spirit
+  <h2>The Philosophy</h2>
 
-The project is influenced by:
-- strength and endurance culture
-- philosophy
-- psychology
-- recovery
-- storytelling
-- creativity
-- identity formation
-- personal transformation
+  <div class="hub-footer-actions">
 
-At its core, the show is interested in one question:
+    <!-- Core Dimensions -->
+    <div class="hub-action">
 
-> What does it mean to become who you are?
+      <div class="hub-action-title">
+        <span class="hub-icon">◉</span>
+        <h3>Mind · Body · Spirit</h3>
+      </div>
+
+      <p>
+        Phil Phails exists at the intersection of psychology,
+        physical practice, philosophy, and personal growth.
+      </p>
+
+    </div>
+
+<div class="hub-action">
+
+  <div class="hub-action-title">
+    <span class="hub-icon">✦</span>
+    <h3>The Influences</h3>
+  </div>
+
+  <ul class="hub-influences">
+    <li>Strength and endurance culture</li>
+    <li>Recovery</li>
+    <li>Storytelling</li>
+    <li>Creativity</li>
+    <li>Identity formation</li>
+    <li>Transformation</li>
+  </ul>
+
+</div>
+
+    <!-- Core Question -->
+    <div class="hub-action">
+
+      <div class="hub-action-title">
+        <span class="hub-icon">△</span>
+        <h3>The Question</h3>
+      </div>
+
+      <p>
+        At its core, the show explores one central question:
+      </p>
+
+      <blockquote>
+        What does it mean to become who you are?
+      </blockquote>
+
+    </div>
+
+  </div>
+
+</section>
 
 ---
 
@@ -53,3 +93,7 @@ Alongside clinical work, he has pursued extensive training in psychology, commun
 This background informs the tone of Phil Phails: grounded, unhurried conversations that prioritize honesty over performance, and inquiry over conclusion.
 
 Rather than positioning himself as an expert outside the work, Phillip approaches the podcast as someone still actively engaged in it—asking questions alongside his guests, not from above them.
+
+---
+
+{% include hub-footer.html %}

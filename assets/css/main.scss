@@ -311,3 +311,39 @@ search: false
 .btn--paypal:hover {
   transform: translateY(-2px);
 }
+
+.about-philosophy .hub-action {
+  cursor: default;
+}
+
+.about-philosophy .hub-action:hover {
+  transform: none;
+}
+
+.hub-influences {
+  margin: 0;
+  padding-left: 1.25rem;
+}
+
+.hub-influences li {
+  margin-bottom: 0.35rem;
+}
+
+.hub-action blockquote {
+  margin: 1rem 0 0 0;
+  padding: 0.25rem 1rem;
+  text-align: left;
+
+  font-style: italic;
+  line-height: 1.5;
+}
+
+.hub-influences {
+  margin: 0;
+  padding-left: 1.1rem; /* keeps indentation but slightly tighter */
+}
+
+.hub-influences li {
+  margin: 0;
+  line-height: 1.5;
+}
