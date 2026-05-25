@@ -53,7 +53,7 @@ This space exists because of people who choose to support independent conversati
       </div>
 
       <p>
-          Listener support keeps Phil Phails independent and growing.
+          Support helps keep these conversations independent and growing.
       </p>
 
       <a href="https://www.paypal.com/donate/?hosted_button_id=GGGL6YZNFGLCC"
