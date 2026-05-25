@@ -4,7 +4,7 @@
 {% endunless %}
 {% if site.footer.links or show_atom %}
 <div class="page__footer-follow">
-  <ul class="social-icons">
+  <!-- <ul class="social-icons">
     {% if site.data.ui-text[locale].follow_label %}
       <li><strong>{{ site.data.ui-text[locale].follow_label }}</strong></li>
     {% endif %}
@@ -20,7 +20,45 @@
     {% unless site.atom_feed.hide %}
       <li><a href="{% if site.atom_feed.path %}{{ site.atom_feed.path }}{% else %}{{ '/feed.xml' | relative_url }}{% endif %}"><i class="fas fa-fw fa-square-rss" aria-hidden="true"></i> {{ site.data.ui-text[locale].feed_label | default: "Feed" }}</a></li>
     {% endunless %}
-  </ul>
+  </ul> -->
+
+<div class="social-links">
+  <strong>Follow on social media:</strong>
+  <a href="https://www.youtube.com/@PhilPhails"
+     target="_blank"
+     rel="noopener noreferrer"
+     aria-label="YouTube">
+    <i class="fab fa-youtube"></i>
+
+  </a>
+
+  <a href="https://www.instagram.com/phil_phails"
+     target="_blank"
+     rel="noopener noreferrer"
+     aria-label="Instagram">
+    <i class="fab fa-instagram"></i>
+  </a>
+
+  <a href="https://www.tiktok.com/@philphails"
+     target="_blank"
+     rel="noopener noreferrer"
+     aria-label="TikTok">
+    <i class="fab fa-tiktok"></i>
+  </a>
+
+  <a href="https://open.spotify.com/show/3g5UiwVusYPGXcdyyEm5oi?si=0eca9598ad344872"
+     target="_blank"
+     rel="noopener noreferrer"
+     aria-label="Spotify">
+    <i class="fab fa-spotify"></i>
+  </a>
+
+  <a href="mailto:phillip@philphails.com"
+     aria-label="Email">
+    <i class="fas fa-envelope"></i>
+  </a>
+
+</div>
 </div>
 {% endif %}
 

@@ -7,9 +7,6 @@ author_profile: false
 header:
   image: /assets/images/aboutPageImage.jpg
 ---
-
-## About Phil Phails
-
 Phil Phails is an independent long-form conversation project created and hosted by Phillip Jones.
 
 The show explores resilience, identity, endurance, philosophy, suffering, masculinity, meaning, and the lifelong process of becoming.
@@ -56,12 +53,3 @@ Alongside clinical work, he has pursued extensive training in psychology, commun
 This background informs the tone of Phil Phails: grounded, unhurried conversations that prioritize honesty over performance, and inquiry over conclusion.
 
 Rather than positioning himself as an expert outside the work, Phillip approaches the podcast as someone still actively engaged in it—asking questions alongside his guests, not from above them.
-
----
-
-## Connect
-
-* **YouTube:** [@PhilPhails](https://www.youtube.com/@PhilPhails)
-* **Instagram:** [@phil_phails](https://www.instagram.com/phil_phails)
-* **Spotify:** [Phil Phails on Spotify](https://open.spotify.com/show/3g5UiwVusYPGXcdyyEm5oi?si=8eb848addcde40e6&nd=1&dlsi=141f78b6c9c94513)
-* **Email:** [phillip@philphails.com](mailto:phillip@philphails.com)

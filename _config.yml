@@ -22,7 +22,7 @@ title_separator          : "-"
 subtitle                 : # site tagline that appears below site title in masthead
 name                     : "Phil Phails"
 description              : "Independent long-form conversations on resilience, identity, endurance, philosophy, and becoming."
-url                      : "https://philphails.com" # the base hostname & protocol for your site, e.g. https://example.com
+url                      : "https://www.philphails.com" # the base hostname & protocol for your site, e.g. https://example.com
 baseurl                  : ""
 repository               : "philphails/philphails.github.io"
 teaser                   : # path of fallback teaser image, e.g. "/assets/images/500x300.png"
@@ -143,19 +143,9 @@ footer:
     - label: "YouTube"
       icon: "fab fa-fw fa-youtube"
       url: "https://www.youtube.com/@PhilPhails"
-    - label: "Facebook"
-      icon: "fab fa-fw fa-square-facebook"
-      url: "https://www.facebook.com/philphails/"
     - label: "Instagram"
       icon: "fab fa-fw fa-instagram"
       url: "https://www.instagram.com/phil_phails"
-    - label: "Linkedin"
-      icon: "fab fa-fw fa-linkedin"
-      url: "https://www.linkedin.com/in/phillipjones2/"
-    - label: "Twitter"
-      icon: "fab fa-fw fa-square-x-twitter"
-      url: "https://x.com/philphails"
-      # rel: "me"  # optional: adds rel attribute (e.g. for IndieWeb web sign-in)
   since: "2026"
 
 
