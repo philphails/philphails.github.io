@@ -193,13 +193,6 @@ search: false
   background: #FF0000; /* YouTube red */
   color: #ffffff !important;
   border: 1px solid #FF0000;
-  font-weight: 600;
-  display: inline-flex;
-  align-items: center;
-  justify-content: center;
-  gap: 0.5rem;
-  transition: all 0.2s ease;
-  text-decoration: none;
 }
 
 /* hover state */
@@ -219,7 +212,6 @@ search: false
 /* focus state (accessibility) */
 .btn--youtube:focus {
   outline: 3px solid rgba(255, 0, 0, 0.3);
-  outline-offset: 2px;
 }
 
 .social-links {
@@ -300,18 +292,6 @@ search: false
   color: #ffffff !important;
 }
 
-.btn--venmo,
-.btn--paypal {
-  border-radius: 12px;
-  font-weight: 600;
-  transition: transform 0.2s ease, box-shadow 0.2s ease;
-}
-
-.btn--venmo:hover,
-.btn--paypal:hover {
-  transform: translateY(-2px);
-}
-
 .about-philosophy .hub-action {
   cursor: default;
 }
@@ -347,3 +327,4 @@ search: false
   margin: 0;
   line-height: 1.5;
 }
+
