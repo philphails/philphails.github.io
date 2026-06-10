@@ -1,0 +1,20 @@
+---
+layout: null
+permalink: /search.json
+---
+
+[
+{% for episode in site.episodes %}
+{
+  "title": {{ episode.title | jsonify }},
+  "excerpt": {{ episode.excerpt | strip_html | jsonify }},
+  "url": {{ episode.url | relative_url | jsonify }},
+  "teaser": "{{ episode.header.teaser | default: episode.teaser }}",
+  "guest": {{ episode.guest | default: "" | jsonify }},
+  "categories": {{ episode.categories | jsonify }},
+  "tags": {{ episode.tags | jsonify }},
+  "content": {{ episode.content | markdownify | strip_html | normalize_whitespace | jsonify }}
+}
+{% unless forloop.last %},{% endunless %}
+{% endfor %}
+]
