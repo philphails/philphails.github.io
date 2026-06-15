@@ -9,11 +9,12 @@ permalink: /search.json
   "title": {{ episode.title | jsonify }},
   "excerpt": {{ episode.excerpt | strip_html | jsonify }},
   "url": {{ episode.url | relative_url | jsonify }},
-  "teaser": "{{ episode.header.teaser | default: episode.teaser }}",
+  "teaser": {{ episode.header.teaser | default: episode.teaser | default: "" | jsonify }},
   "guest": {{ episode.guest | default: "" | jsonify }},
-  "categories": {{ episode.categories | jsonify }},
-  "tags": {{ episode.tags | jsonify }},
-  "content": {{ episode.content | markdownify | strip_html | normalize_whitespace | jsonify }}
+  "episode_number": {{ episode.episode_number }},
+  "categories": {{ episode.categories | default: [] | jsonify }},
+  "tags": {{ episode.tags | default: [] | jsonify }},
+  "content": {{ episode.content | strip_html | normalize_whitespace | jsonify }}
 }
 {% unless forloop.last %},{% endunless %}
 {% endfor %}

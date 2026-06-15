@@ -19,15 +19,11 @@ sidebar:
   <p>
     These episodes explore anxiety, identity, emotion, and behavior as lived experience—not theory.
   </p>
-  <p>
-    Start anywhere below. Each conversation looks at the mind from the inside out.
-  </p>
 </section>
 
 <hr class="hub-divider" />
 
 <section class="hub-episodes">
-  <h2>Episodes</h2>
 
   <div class="entries-wrapper">
     <div class="entries-grid">

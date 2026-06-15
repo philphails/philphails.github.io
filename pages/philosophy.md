@@ -19,15 +19,11 @@ sidebar:
   <p>
     These conversations explore the space between thinking and living.
   </p>
-  <p>
-    Start anywhere below—each episode approaches philosophy through real experience, not theory.
-  </p>
 </section>
 
 <hr class="hub-divider" />
 
 <section class="hub-episodes">
-  <h2>Episodes</h2>
 
   <div class="entries-wrapper">
     <div class="entries-grid">

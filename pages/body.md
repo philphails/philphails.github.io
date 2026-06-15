@@ -23,15 +23,11 @@ sidebar:
   <p>
     These conversations explore stress, emotion, movement, and presence through lived experience.
   </p>
-  <p>
-    Start anywhere below. Each episode approaches the body as something to listen to, not control.
-  </p>
 </section>
 
 <hr class="hub-divider" />
 
 <section class="hub-episodes">
-  <h2>Episodes</h2>
 
   <div class="entries-wrapper">
     <div class="entries-grid">

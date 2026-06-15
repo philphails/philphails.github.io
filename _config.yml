@@ -280,19 +280,19 @@ category_archive:
   path: /categories/
 tag_archive:
   type: liquid
-  path: /tags/
+  path: /topics/
 # show_taxonomy: false  # set to false to hide tag/category lists on posts
 # https://github.com/jekyll/jekyll-archives
-# jekyll-archives:
-#   enabled:
+#jekyll-archives:
+#  enabled:
 #     - categories
-#     - tags
-#   layouts:
+#    - tags
+#  layouts:
 #     category: archive-taxonomy
-#     tag: archive-taxonomy
-#   permalinks:
+#    tag: archive-taxonomy
+#  permalinks:
 #     category: /categories/:name/
-#     tag: /tags/:name/
+#    tag: /topics/:name/
 
 
 # HTML Compression
@@ -321,6 +321,24 @@ collections:
   episodes:
     output: true
     permalink: /:collection/:path/
+    metadata: true
+
+  articles:
+    output: true
+    permalink: /articles/:path/
+
+
+defaults:
+  # _articles
+  - scope:
+      path: ""
+      type: articles
+    values:
+      layout: article
+      classes: wide
+      author_profile: false
+      share: true
+
 
 defaults:
   # _episodes

@@ -334,3 +334,9 @@ search: false
   margin-bottom: 2rem;
   font-size: 1rem;
 }
+
+@media (min-width: 48em) {
+    .grid__item .archive__item-teaser {
+        max-height: 160px;
+    }
+}

@@ -19,15 +19,11 @@ sidebar:
   <p>
     These episodes explore what it means to be aware, to feel meaning, and to stay present with uncertainty.
   </p>
-  <p>
-    Start with any episode below—each one approaches spirit through lived experience, not belief.
-  </p>
 </section>
 
 <hr class="hub-divider" />
 
 <section class="hub-episodes">
-  <h2>Episodes</h2>
 
   <div class="entries-wrapper">
     <div class="entries-grid">

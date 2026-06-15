@@ -19,15 +19,11 @@ header:
   <p>
     These episodes look at attention, thought patterns, self-talk, and awareness in real life—not as theory, but as lived experience.
   </p>
-  <p>
-    Start with any episode below, then explore how the mind shows up across different conversations.
-  </p>
 </section>
 
 <hr class="hub-divider" />
 
 <section class="hub-episodes">
-  <h2>Episodes</h2>
 
   <div class="entries-wrapper">
     <div class="entries-grid">
