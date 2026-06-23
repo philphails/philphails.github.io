@@ -46,6 +46,9 @@ mind-body-spirit:
 
       - title: "Relationships"
         url: /relationships/
+      
+      # - title: "Resilience"
+      #   url: /resilience/
 
       - title: "Identity"
         url: /identity/
