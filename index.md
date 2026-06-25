@@ -91,7 +91,7 @@ Start by exploring episodes. Read the articles. Watch the conversations. Follow 
       <a href="https://www.youtube.com/@PhilPhails?sub_confirmation=1"
         target="_blank"
         rel="noopener noreferrer"
-        class="btn btn--youtube">
+        class="btn btn--youtube track-youtube-subscribe">
         ▶ Subscribe on YouTube
       </a>
     </div>
@@ -105,7 +105,7 @@ Start by exploring episodes. Read the articles. Watch the conversations. Follow 
 
       <p>Help keep Phil Phails independent and growing.</p>
 
-      <a class="hub-button secondary"
+      <a class="hub-button secondary track-donate"
          href="https://www.paypal.com/donate/?hosted_button_id=GGGL6YZNFGLCC">
         Support the Work
       </a>

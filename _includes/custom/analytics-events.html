@@ -1,0 +1,26 @@
+<script>
+document.addEventListener("DOMContentLoaded", function() {
+
+  function trackClick(selector, eventName) {
+    document.querySelectorAll(selector).forEach(function(el) {
+      el.addEventListener("click", function() {
+
+        if (typeof gtag === "function") {
+          gtag('event', eventName, {
+            event_category: 'engagement',
+            event_label: window.location.pathname
+          });
+        }
+
+      });
+    });
+  }
+
+  trackClick('.track-youtube-subscribe', 'youtube_subscribe');
+  trackClick('.track-donate', 'donation_click');
+  trackClick('.track-guest', 'guest_inquiry');
+  trackClick('.track-sponsor-logo-studio-satya', 'sponsor_link_click_studio_satya');
+  trackClick('.track-sponsor-logo-bicycle-house', 'sponsor_link_click_bicycle_house');
+
+});
+</script>

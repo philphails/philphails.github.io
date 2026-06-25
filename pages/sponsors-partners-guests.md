@@ -61,7 +61,7 @@ Through thoughtful conversations and reflective storytelling, Phil Phails create
         Long-form conversations that allow ideas, stories, expertise, and life experiences to be explored in depth.
       </p>
 
-      <a class="hub-button secondary" href="#for-guests">
+      <a class="hub-button secondary track-guest" href="#for-guests">
         Become a Guest
       </a>
     </div>
@@ -329,7 +329,7 @@ I'm continually impressed by the breadth and depth of topics covered on Phil Pha
   <a href="https://www.studiosatya.com/" 
      target="_blank" 
      rel="noopener noreferrer"
-     class="supporter-card">
+     class="supporter-card track-sponsor-logo-studio-satya">
 
     <img src="/assets/images/sponsors/studio-satya.jpg" 
          alt="Studio Satya Logo">
@@ -338,7 +338,7 @@ I'm continually impressed by the breadth and depth of topics covered on Phil Pha
   <a href="https://www.bicyclehouseatx.com/" 
      target="_blank" 
      rel="noopener noreferrer"
-     class="supporter-card">
+     class="supporter-card track-sponsor-logo-bicycle-house">
 
     <img src="/assets/images/sponsors/bicycle-house.jpg" 
          alt="Bicycle House Logo">
@@ -367,7 +367,7 @@ Whether you're interested in sponsoring an episode, exploring a partnership, app
       <a href="https://www.youtube.com/@PhilPhails?sub_confirmation=1"
         target="_blank"
         rel="noopener noreferrer"
-        class="btn btn--youtube">
+        class="btn btn--youtube track-youtube-subscribe">
         ▶ Subscribe on YouTube
       </a>
     </div>
@@ -381,7 +381,7 @@ Whether you're interested in sponsoring an episode, exploring a partnership, app
 
       <p>Help keep Phil Phails independent and growing.</p>
 
-      <a class="hub-button secondary"
+      <a class="hub-button secondary track-donate"
          href="https://www.paypal.com/donate/?hosted_button_id=GGGL6YZNFGLCC">
         Support the Work
       </a>
