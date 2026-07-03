@@ -30,6 +30,8 @@ If you're looking for thoughtful conversations about yoga as a way of living—n
   </div>
 </section>
 
+![studio satya logo](../assets/images/sponsors/studio-satya.jpg)
+
 ## About Studio Satya
 
 Studio Satya is an independent yoga studio in North Austin dedicated to traditional yoga, meditation, breathwork, and mindful living. Founded by Mary Richardson-Perez and now co-owned with Karlie Lemos and Hollie Meador, the studio offers an inclusive environment where practitioners of all experience levels can deepen their practice through movement, philosophy, and community.
