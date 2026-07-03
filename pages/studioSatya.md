@@ -12,10 +12,6 @@ sidebar:
   nav: "mind-body-spirit"
 ---
 
-## Studio Satya
-
-*Practice. Presence. Community.*
-
 Studio Satya has become a second home for many of my conversations about yoga, mindfulness, philosophy, and living with greater intention. Across these episodes, owners Mary Richardson-Perez, Karlie Lemos, and Hollie Meador share decades of experience while exploring topics that reach far beyond the yoga mat.
 
 Together, these conversations examine resilience, nervous system regulation, relationships, community, balance, purpose, and the lifelong practice of becoming more fully ourselves. Whether discussing the Yoga Sutras, navigating life's changing seasons, or building a welcoming community in Austin, each episode offers practical wisdom grounded in compassion, curiosity, and presence.
