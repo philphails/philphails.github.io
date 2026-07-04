@@ -12,7 +12,7 @@ header:
 
       - label: "Watch on YouTube"
         url: "https://www.youtube.com/@PhilPhails"
-        class: "btn--light-outline"
+        class: "track-youtube btn--light-outline"
 
 excerpt: Explore ideas that help you think more clearly, feel more deeply, and live more intentionally.
 
