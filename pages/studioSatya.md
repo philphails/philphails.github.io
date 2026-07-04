@@ -36,10 +36,62 @@ If you're looking for thoughtful conversations about yoga as a way of living—n
 
 Studio Satya is an independent yoga studio in North Austin dedicated to traditional yoga, meditation, breathwork, and mindful living. Founded by Mary Richardson-Perez and now co-owned with Karlie Lemos and Hollie Meador, the studio offers an inclusive environment where practitioners of all experience levels can deepen their practice through movement, philosophy, and community.
 
-### Connect with Studio Satya
+<h3>Connect with Studio Satya</h3>
 
-- 📍 **Address:** [1308 W. Anderson Lane, Suite A, Austin, TX 78757](https://maps.google.com/?q=1308+W+Anderson+Lane+Suite+A+Austin+TX+78757)
-- 🌐 **Website:** <https://www.studiosatya.com>
-- 📸 **Instagram:** <https://www.instagram.com/studio_satya_austin/>
-- 👍 **Facebook:** <https://www.facebook.com/StudioSatyaAustin/>
-- 📞 **Phone:** [(512) 400-0168](tel:+15124000168)
+<div class="contact-links">
+
+  <p>
+    📍
+    <strong>Address:</strong>
+    <a href="https://maps.google.com/?q=1308+W+Anderson+Lane+Suite+A+Austin+TX+78757"
+       target="_blank"
+       rel="noopener noreferrer">
+      1308 W. Anderson Lane, Suite A, Austin, TX 78757
+    </a>
+  </p>
+
+  <p>
+    🌐
+    <strong>Website:</strong>
+    <a href="https://www.studiosatya.com/"
+       target="_blank"
+       rel="noopener noreferrer"
+       class="track-sponsor"
+       data-sponsor="Studio Satya">
+      studiosatya.com
+    </a>
+  </p>
+
+  <p>
+    📸
+    <strong>Instagram:</strong>
+    <a href="https://www.instagram.com/studio_satya_austin/"
+       target="_blank"
+       rel="noopener noreferrer"
+       class="track-sponsor"
+       data-sponsor="Studio Satya">
+      @studio_satya_austin
+    </a>
+  </p>
+
+  <p>
+    👍
+    <strong>Facebook:</strong>
+    <a href="https://www.facebook.com/StudioSatyaAustin/"
+       target="_blank"
+       rel="noopener noreferrer"
+       class="track-sponsor"
+       data-sponsor="Studio Satya">
+      Studio Satya Austin
+    </a>
+  </p>
+
+  <p>
+    📞
+    <strong>Phone:</strong>
+    <a href="tel:+15124000168">
+      (512) 400-0168
+    </a>
+  </p>
+
+</div>

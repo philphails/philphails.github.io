@@ -1,26 +1,60 @@
 <script>
-document.addEventListener("DOMContentLoaded", function() {
+document.addEventListener("DOMContentLoaded", function () {
 
   function trackClick(selector, eventName) {
-    document.querySelectorAll(selector).forEach(function(el) {
-      el.addEventListener("click", function() {
+    document.querySelectorAll(selector).forEach(function (el) {
+
+      el.addEventListener("click", function () {
 
         if (typeof gtag === "function") {
-          gtag('event', eventName, {
-            event_category: 'engagement',
-            event_label: window.location.pathname
-          });
+
+          const eventData = {
+            event_category: "engagement",
+            page_location: window.location.pathname,
+            destination: el.href
+          };
+
+          // Add sponsor name if this is a sponsor link
+          if (el.dataset.sponsor) {
+            eventData.sponsor_name = el.dataset.sponsor;
+          }
+
+          // Add guest name if you ever use it
+          if (el.dataset.guest) {
+            eventData.guest_name = el.dataset.guest;
+          }
+
+          // Add hub name if you ever use it
+          if (el.dataset.hub) {
+            eventData.hub_name = el.dataset.hub;
+          }
+
+          gtag("event", eventName, eventData);
+
         }
 
       });
+
     });
   }
 
-  trackClick('.track-youtube-subscribe', 'youtube_subscribe');
-  trackClick('.track-donate', 'donation_click');
-  trackClick('.track-guest', 'guest_inquiry');
-  trackClick('.track-sponsor-logo-studio-satya', 'sponsor_link_click_studio_satya');
-  trackClick('.track-sponsor-logo-bicycle-house', 'sponsor_link_click_bicycle_house');
+  // YouTube
+  trackClick(".track-youtube-subscribe", "youtube_subscribe");
+
+  // Donations
+  trackClick(".track-donate", "donation_click");
+
+  // Guest inquiry
+  trackClick(".track-guest", "guest_inquiry");
+
+  // Sponsor website clicks
+  trackClick(".track-sponsor", "sponsor_click");
+
+  // Partner inquiry
+  trackClick(".track-partner", "partner_inquiry");
+
+  // Hub navigation
+  trackClick(".track-hub", "hub_navigation");
 
 });
 </script>

@@ -340,3 +340,25 @@ search: false
         max-height: 160px;
     }
 }
+
+.contact-links {
+  margin: 1.5rem 0;
+}
+
+.contact-links p {
+  margin: 0.45rem 0;
+  line-height: 1.6;
+}
+
+.contact-links strong {
+  display: inline-block;
+  min-width: 90px;
+}
+
+.contact-links a {
+  text-decoration: none;
+}
+
+.contact-links a:hover {
+  text-decoration: underline;
+}

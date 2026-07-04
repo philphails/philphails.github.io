@@ -329,7 +329,8 @@ I'm continually impressed by the breadth and depth of topics covered on Phil Pha
   <a href="https://www.studiosatya.com/" 
      target="_blank" 
      rel="noopener noreferrer"
-     class="supporter-card track-sponsor-logo-studio-satya">
+     class="supporter-card track-sponsor"
+     data-sponsor="Studio Satya">
 
     <img src="/assets/images/sponsors/studio-satya.jpg" 
          alt="Studio Satya Logo">
@@ -338,7 +339,8 @@ I'm continually impressed by the breadth and depth of topics covered on Phil Pha
   <a href="https://www.bicyclehouseatx.com/" 
      target="_blank" 
      rel="noopener noreferrer"
-     class="supporter-card track-sponsor-logo-bicycle-house">
+     class="supporter-card track-sponsor"
+     data-sponsor="Bicycle House">
 
     <img src="/assets/images/sponsors/bicycle-house.jpg" 
          alt="Bicycle House Logo">

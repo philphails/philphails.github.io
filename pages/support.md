@@ -21,7 +21,8 @@ This space exists because of people who choose to support independent conversati
   <a href="https://www.studiosatya.com/" 
      target="_blank" 
      rel="noopener noreferrer"
-     class="supporter-card">
+     class="supporter-card track-sponsor"
+     data-sponsor="Studio Satya">
 
     <img src="/assets/images/sponsors/studio-satya.jpg" 
          alt="Studio Satya Logo">
@@ -30,7 +31,8 @@ This space exists because of people who choose to support independent conversati
   <a href="https://www.bicyclehouseatx.com/" 
      target="_blank" 
      rel="noopener noreferrer"
-     class="supporter-card">
+     class="supporter-card track-sponsor"
+     data-sponsor="Bicycle House">
 
     <img src="/assets/images/sponsors/bicycle-house.jpg" 
          alt="Bicycle House Logo">
@@ -48,7 +50,7 @@ This space exists because of people who choose to support independent conversati
     <div class="hub-action">
 
       <div class="hub-action-title">
-        <span class="hub-icon">♥</span>
+        <span class="track-donate hub-icon">♥</span>
         <h3>Support with PayPal</h3>
       </div>
 
@@ -59,7 +61,7 @@ This space exists because of people who choose to support independent conversati
       <a href="https://www.paypal.com/donate/?hosted_button_id=GGGL6YZNFGLCC"
          target="_blank"
          rel="noopener noreferrer"
-         class="btn btn--paypal">
+         class="track-donate btn btn--paypal">
         Support via PayPal
       </a>
 
@@ -79,7 +81,7 @@ This space exists because of people who choose to support independent conversati
       <a href="https://venmo.com/philphails"
          target="_blank"
          rel="noopener noreferrer"
-         class="btn btn--venmo">
+         class="track-donate btn btn--venmo">
         Support via Venmo
       </a>
 
@@ -106,7 +108,7 @@ This space exists because of people who choose to support independent conversati
     <a href="https://www.paypal.com/donate/?hosted_button_id=GGGL6YZNFGLCC"
        target="_blank"
        rel="noopener noreferrer"
-       class="btn btn--paypal">
+       class="track-donate btn btn--paypal">
       Contribute with PayPal
     </a>
 
@@ -127,7 +129,7 @@ This space exists because of people who choose to support independent conversati
     <a href="https://venmo.com/"
        target="_blank"
        rel="noopener noreferrer"
-       class="btn btn--venmo">
+       class="track-donate btn btn--venmo">
       Contribute with Venmo
     </a>
 
