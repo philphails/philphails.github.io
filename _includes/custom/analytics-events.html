@@ -35,6 +35,18 @@ document.addEventListener("DOMContentLoaded", function () {
           eventData.navigation_item = el.dataset.title;
         }
 
+        if (el.dataset.title) {
+          eventData.navigation_item = el.dataset.title;
+        }
+
+        if (el.dataset.section) {
+          eventData.navigation_section = el.dataset.section;
+        }
+
+        if (el.dataset.url) {
+          eventData.navigation_url = el.dataset.url;
+        }
+
         // Debug output
         console.log("GA4 Event:", eventName, eventData);
 
