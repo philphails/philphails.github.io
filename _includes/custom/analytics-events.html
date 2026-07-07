@@ -2,60 +2,83 @@
 document.addEventListener("DOMContentLoaded", function () {
 
   function trackClick(selector, eventName) {
+
     document.querySelectorAll(selector).forEach(function (el) {
 
       el.addEventListener("click", function () {
 
+        const eventData = {
+          event_category: "engagement",
+          page_location: window.location.pathname,
+          page_title: document.title,
+          destination: el.href
+        };
+
+        // Optional data attributes
+        if (el.dataset.sponsor) {
+          eventData.sponsor_name = el.dataset.sponsor;
+        }
+
+        if (el.dataset.partner) {
+          eventData.partner_name = el.dataset.partner;
+        }
+
+        if (el.dataset.guest) {
+          eventData.guest_name = el.dataset.guest;
+        }
+
+        if (el.dataset.hub) {
+          eventData.hub_name = el.dataset.hub;
+        }
+
+        if (el.dataset.title) {
+          eventData.navigation_item = el.dataset.title;
+        }
+
+        // Debug output
+        console.log("GA4 Event:", eventName, eventData);
+
         if (typeof gtag === "function") {
 
-          const eventData = {
-            event_category: "engagement",
-            page_location: window.location.pathname,
-            destination: el.href
-          };
-
-          // Add sponsor name if this is a sponsor link
-          if (el.dataset.sponsor) {
-            eventData.sponsor_name = el.dataset.sponsor;
-          }
-
-          // Add guest name if you ever use it
-          if (el.dataset.guest) {
-            eventData.guest_name = el.dataset.guest;
-          }
-
-          // Add hub name if you ever use it
-          if (el.dataset.hub) {
-            eventData.hub_name = el.dataset.hub;
-          }
+          console.log("✓ Sending event to Google Analytics");
 
           gtag("event", eventName, eventData);
+
+        } else {
+
+          console.warn("✗ gtag is NOT loaded.");
 
         }
 
       });
 
     });
+
   }
+
+  // -------------------------
+  // Track Events
+  // -------------------------
 
   // YouTube
   trackClick(".track-youtube-subscribe", "youtube_subscribe");
-  trackClick(".track-youtube", "youtube");
+  trackClick(".track-youtube", "youtube_click");
 
   // Donations
   trackClick(".track-donate", "donation_click");
 
-  // Guest inquiry
+  // Guest inquiries
   trackClick(".track-guest", "guest_inquiry");
 
-  // Sponsor website clicks
+  // Sponsor links
   trackClick(".track-sponsor", "sponsor_click");
 
-  // Partner inquiry
+  // Partner links
   trackClick(".track-partner", "partner_inquiry");
 
-  // Hub navigation
+  // Navigation
   trackClick(".track-hub", "hub_navigation");
+  trackClick(".track-navigation", "navigation_click");
 
 });
 </script>
