@@ -35,25 +35,29 @@ mind-body-spirit:
 
   - title: "Themes"
     children:
-      - title: "Philosophy"
-        url: /philosophy/
-
       - title: "Psychology"
         url: /psychology/
+
+      - title: "Identity"
+        url: /identity/
+
+      - title: "Relationships"
+        url: /relationships/
+
+      - title: "Resilience"
+        url: /resilience/
+
+      - title: "Philosophy"
+        url: /philosophy/
 
       - title: "Philosophy Book Club"
         url: /philosophy-book-club/
 
-      - title: "Relationships"
-        url: /relationships/
-      
-      # - title: "Resilience"
-      #   url: /resilience/
+      - title: "Cycling"
+        url: /cycling/
 
-      - title: "Identity"
-        url: /identity/
-      
       - title: "Studio Satya"
         url: /studio-satya/
+
       
       

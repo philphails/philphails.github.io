@@ -362,3 +362,37 @@ search: false
 .contact-links a:hover {
   text-decoration: underline;
 }
+
+.social-profile-link {
+  margin: 2rem 0;
+}
+
+.social-profile-link a {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+  padding: 1rem 0;
+  border-top: 1px solid #e5e5e5;
+  border-bottom: 1px solid #e5e5e5;
+  text-decoration: none;
+}
+
+.social-profile-link a:hover {
+  opacity: .75;
+}
+
+.social-profile-icon {
+  width: 36px;
+  height: 36px;
+}
+
+.social-profile-text h4 {
+  margin: 0;
+  font-size: 1rem;
+}
+
+.social-profile-text p {
+  margin: .25rem 0 0;
+  color: #666;
+  font-size: .9rem;
+}
