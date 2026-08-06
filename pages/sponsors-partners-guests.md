@@ -178,48 +178,49 @@ Through thoughtful conversations and reflective storytelling, Phil Phails create
 
 # Reach & Distribution
 
-Phil Phails content is distributed across multiple platforms, creating opportunities for both discovery and long-term engagement.
+Phil Phails meets its audience across video, audio, and broadcast — built for both discovery and long-term engagement.
 
 <div class="hub-footer">
 
   <div class="hub-footer-actions">
 
     <div class="hub-action">
-      <h3>YouTube</h3>
+      <h3>Video</h3>
 
       <ul>
-        <li>Weekly long-form episodes, clips, and Shorts</li>
-        <li>2,044 subscribers</li>
-        <li>1.5M+ lifetime views</li>
-        <li>Growing, evergreen video archive</li>
+        <li>Long-form episodes on YouTube</li>
+        <li>Short-form clips on YouTube Shorts, Instagram, and TikTok</li>
+        <li>A growing, evergreen archive</li>
       </ul>
     </div>
 
     <div class="hub-action">
-      <h3>Podcast Platforms</h3>
+      <h3>Audio</h3>
 
       <ul>
         <li>Distributed via Spotify for Creators</li>
         <li>Available on Spotify, Apple Podcasts, and all major podcast platforms</li>
-        <li>Extends reach into daily listening habits</li>
-        <li>Regular new episode releases</li>
+        <li>Reaches listeners in daily routines and commutes</li>
       </ul>
     </div>
 
     <div class="hub-action">
-      <h3>Website & TV</h3>
+      <h3>Web & Broadcast</h3>
 
       <ul>
-        <li>Dedicated page and companion article for every episode at PhilPhails.com</li>
-        <li>Broadcast weekly on Austin Public Access, Channel 10 — the longest continually running public access station in the country — since June 2024</li>
-        <li>Produced through the Austin Film Society's producer program</li>
-        <li>Carried across Spectrum, Astound, and AT&T U-Verse</li>
+        <li>Dedicated page and article for every episode at PhilPhails.com</li>
+        <li>Weekly broadcast on Austin Public Access</li>
+        <li>Live streaming and video-on-demand</li>
       </ul>
     </div>
 
   </div>
 
 </div>
+
+### On Austin Public Access — Channel 10
+
+Phil Phails has aired weekly since June 2024 on Channel 10, the longest continually running public access station in the country — produced through the Austin Film Society's producer program and carried across Spectrum, Astound, and AT&T U-Verse throughout the Austin metro.
 
 ---
 
@@ -231,15 +232,40 @@ Phil Phails works best with organizations aligned with growth, learning, health,
 
 These are the categories where the fit tends to be strongest — but if your organization shares the show's values and doesn't see itself below, reach out anyway.
 
-- Functional Medicine
-- Mental Health
-- ADHD & Neurodiversity
-- Fitness & Endurance
-- Health Technology
-- Outdoor Recreation
-- Coaching & Personal Development
-- Books & Publishing
-- Wellness & Recovery
+<div class="hub-footer">
+
+  <div class="hub-footer-actions">
+
+    <div class="hub-action">
+      <h3>Health & Medicine</h3>
+      <ul>
+        <li>Functional Medicine</li>
+        <li>Health Technology</li>
+        <li>Wellness & Recovery</li>
+      </ul>
+    </div>
+
+    <div class="hub-action">
+      <h3>Mind & Growth</h3>
+      <ul>
+        <li>Mental Health</li>
+        <li>ADHD & Neurodiversity</li>
+        <li>Coaching & Personal Development</li>
+      </ul>
+    </div>
+
+    <div class="hub-action">
+      <h3>Active & Creative</h3>
+      <ul>
+        <li>Fitness & Endurance</li>
+        <li>Outdoor Recreation</li>
+        <li>Books & Publishing</li>
+      </ul>
+    </div>
+
+  </div>
+
+</div>
 
 ---
 
@@ -264,106 +290,3 @@ TEDx speaker Rick Kutcher · Fr. Bill W., Episcopal priest & author of *The Powe
 > *"Once the interview began, I knew I'd made the right decision—but more than that, I knew I'd made a new friend."*
 
 ### Father Bill W.
-*Episcopal Priest & Author, The Power of Two Way Prayer*
-
-When Phil first invited me to record a session with him, I'll admit to having my doubts. But something about Phil's sincerity and dedication called to me. Once the interview began, I knew I'd made the right decision—but more than that, I knew I'd made a new friend.
-
-We've all failed at times in life, and sharing how we climbed out of those holes is something the world needs to hear. If you're invited to share on Phil Phails, go do it. Your story may help someone succeed.
-
----
-
-> *"The blend of freewheeling curiosity and systematic preparation allows the guest to truly shine."*
-
-### Andrew Wagner
-*Comedian*
-
-Philip is a natural interviewer. His style is loose and conversational but structured. He spends hours preparing behind the scenes, creating an on-air structure that can ebb and flow while maintaining a productive, cohesive narrative.
-
-The combination of genuine curiosity and thoughtful preparation allows the guest to truly shine.
-
----
-
-> *"He manages to get experts in almost every modality related to growth and human experience."*
-
-### David Garrison
-*Men's Work Facilitator*
-
-I really enjoyed being Phillip's guest on the show. He asks questions that lead naturally into the most meaningful topics while keeping the conversation light, engaging, and authentic.
-
-I'm continually impressed by the breadth and depth of topics covered on Phil Phails. I highly recommend the experience.
-
----
-
-# Community Partners
-
-<div class="supporter-grid">
-  <a href="https://www.studiosatya.com/" 
-     target="_blank" 
-     rel="noopener noreferrer"
-     class="supporter-card track-sponsor"
-     data-sponsor="Studio Satya">
-
-    <img src="/assets/images/sponsors/studio-satya.jpg" 
-         alt="Studio Satya Logo">
-  </a>
-</div>
-
----
-
-# Let's Connect
-
-Whether you're interested in sponsoring an episode, exploring a partnership, appearing as a guest, or supporting the project, I'd love to hear from you.
-
-<div class="hub-footer">
-
-  <div class="hub-footer-actions">
-
-    <!-- EMAIL -->
-    <div class="hub-action">
-      <div class="hub-action-title">
-        <span class="hub-icon">✉</span>
-        <h3>Email</h3>
-      </div>
-
-      <p>Sponsorships, partnerships, guest inquiries — all welcome.</p>
-
-      <a class="hub-button secondary" href="mailto:phillip@philphails.com">
-        phillip@philphails.com
-      </a>
-    </div>
-
-    <!-- SUBSCRIBE -->
-    <div class="hub-action">
-      <div class="hub-action-title">
-        <span class="hub-icon">▶</span>
-        <h3>Subscribe</h3>
-      </div>
-
-      <p>New conversations on mind, body, spirit, philosophy, and psychology.</p>
-
-      <a href="https://www.youtube.com/@PhilPhails?sub_confirmation=1"
-        target="_blank"
-        rel="noopener noreferrer"
-        class="btn btn--youtube track-youtube-subscribe">
-        ▶ Subscribe on YouTube
-      </a>
-    </div>
-
-    <!-- SUPPORT -->
-    <div class="hub-action">
-      <div class="hub-action-title">
-        <span class="hub-icon">♥</span>
-        <h3>Support</h3>
-      </div>
-
-      <p>Help keep Phil Phails independent and growing.</p>
-
-      <a class="hub-button secondary track-donate"
-         href="https://www.paypal.com/donate/?hosted_button_id=GGGL6YZNFGLCC">
-        Support the Work
-      </a>
-    </div>
-
-  </div>
-
-</div>
