@@ -17,10 +17,10 @@ Through thoughtful conversations and reflective storytelling, Phil Phails create
 
 <div class="hub-footer">
 
-  <div class="hub-footer-actions">
+  <div class="hub-footer-actions" style="justify-content: center;">
 
     <!-- GET IN TOUCH -->
-    <div class="hub-action">
+    <div class="hub-action" style="max-width: 380px;">
       <div class="hub-action-title">
         <span class="hub-icon">✉</span>
         <h3>Get in Touch</h3>
@@ -187,17 +187,23 @@ Phil Phails content is distributed across multiple platforms, creating opportuni
     <div class="hub-action">
       <h3>YouTube</h3>
 
-      <p>
-        Long-form conversations, clips, and Shorts drive weekly discovery — 2,044 subscribers and 1.5M+ lifetime views across a growing video archive.
-      </p>
+      <ul>
+        <li>Weekly long-form episodes, clips, and Shorts</li>
+        <li>2,044 subscribers</li>
+        <li>1.5M+ lifetime views</li>
+        <li>Growing, evergreen video archive</li>
+      </ul>
     </div>
 
     <div class="hub-action">
       <h3>Podcast Platforms</h3>
 
-      <p>
-        Distributed via Spotify for Creators to Spotify, Apple Podcasts, and all major podcast platforms — extending the show's reach into daily listening habits beyond video.
-      </p>
+      <ul>
+        <li>Distributed via Spotify for Creators</li>
+        <li>Available on Spotify, Apple Podcasts, and all major podcast platforms</li>
+        <li>Extends reach into daily listening habits</li>
+        <li>Regular new episode releases</li>
+      </ul>
     </div>
 
     <div class="hub-action">
