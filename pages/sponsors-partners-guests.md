@@ -357,3 +357,39 @@ Whether you're interested in sponsoring an episode, exploring a partnership, app
         phillip@philphails.com
       </a>
     </div>
+
+  <!-- SUBSCRIBE -->
+    <div class="hub-action">
+      <div class="hub-action-title">
+        <span class="hub-icon">▶</span>
+        <h3>Subscribe</h3>
+      </div>
+
+      <p>New conversations on mind, body, spirit, philosophy, and psychology.</p>
+
+      <a href="https://www.youtube.com/@PhilPhails?sub_confirmation=1"
+        target="_blank"
+        rel="noopener noreferrer"
+        class="btn btn--youtube track-youtube-subscribe">
+        ▶ Subscribe on YouTube
+      </a>
+    </div>
+
+    <!-- SUPPORT -->
+    <div class="hub-action">
+      <div class="hub-action-title">
+        <span class="hub-icon">♥</span>
+        <h3>Support</h3>
+      </div>
+
+      <p>Help keep Phil Phails independent and growing.</p>
+
+      <a class="hub-button secondary track-donate"
+         href="https://www.paypal.com/donate/?hosted_button_id=GGGL6YZNFGLCC">
+        Support the Work
+      </a>
+    </div>
+
+  </div>
+
+</div>
