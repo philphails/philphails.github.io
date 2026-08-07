@@ -290,3 +290,70 @@ TEDx speaker Rick Kutcher · Fr. Bill W., Episcopal priest & author of *The Powe
 > *"Once the interview began, I knew I'd made the right decision—but more than that, I knew I'd made a new friend."*
 
 ### Father Bill W.
+*Episcopal Priest & Author, The Power of Two Way Prayer*
+
+When Phil first invited me to record a session with him, I'll admit to having my doubts. But something about Phil's sincerity and dedication called to me. Once the interview began, I knew I'd made the right decision—but more than that, I knew I'd made a new friend.
+
+We've all failed at times in life, and sharing how we climbed out of those holes is something the world needs to hear. If you're invited to share on Phil Phails, go do it. Your story may help someone succeed.
+
+---
+
+> *"The blend of freewheeling curiosity and systematic preparation allows the guest to truly shine."*
+
+### Andrew Wagner
+*Comedian*
+
+Philip is a natural interviewer. His style is loose and conversational but structured. He spends hours preparing behind the scenes, creating an on-air structure that can ebb and flow while maintaining a productive, cohesive narrative.
+
+The combination of genuine curiosity and thoughtful preparation allows the guest to truly shine.
+
+---
+
+> *"He manages to get experts in almost every modality related to growth and human experience."*
+
+### David Garrison
+*Men's Work Facilitator*
+
+I really enjoyed being Phillip's guest on the show. He asks questions that lead naturally into the most meaningful topics while keeping the conversation light, engaging, and authentic.
+
+I'm continually impressed by the breadth and depth of topics covered on Phil Phails. I highly recommend the experience.
+
+---
+
+# Community Partners
+
+<div class="supporter-grid">
+  <a href="https://www.studiosatya.com/" 
+     target="_blank" 
+     rel="noopener noreferrer"
+     class="supporter-card track-sponsor"
+     data-sponsor="Studio Satya">
+
+    <img src="/assets/images/sponsors/studio-satya.jpg" 
+         alt="Studio Satya Logo">
+  </a>
+</div>
+
+---
+
+# Let's Connect
+
+Whether you're interested in sponsoring an episode, exploring a partnership, appearing as a guest, or supporting the project, I'd love to hear from you.
+
+<div class="hub-footer">
+
+  <div class="hub-footer-actions">
+
+    <!-- EMAIL -->
+    <div class="hub-action">
+      <div class="hub-action-title">
+        <span class="hub-icon">✉</span>
+        <h3>Email</h3>
+      </div>
+
+      <p>Sponsorships, partnerships, guest inquiries — all welcome.</p>
+
+      <a class="hub-button secondary" href="mailto:phillip@philphails.com">
+        phillip@philphails.com
+      </a>
+    </div>
