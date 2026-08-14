@@ -50,9 +50,6 @@ feature_row:
   #   btn_label: Think
   #   btn_class: btn--light-outline
 ---
-
-<h2>Start Here</h2>
-
 <p>
 This site is a collection of conversations. Not everything will resonate — and that’s intentional.
 </p>
@@ -111,21 +108,20 @@ Start by exploring episodes. Read the articles. Watch the conversations. Follow 
       </a>
     </div>
 
-    <!-- WHY / CONTEXT -->
-    <div class="hub-action">
-      <div class="hub-action-title">
-        <span class="hub-icon">⟡</span>
-        <h3>Why This Exists</h3>
-      </div>
-
-      <p>
-        Conversations designed to help people think more clearly, feel more honestly, and live with more intention.
-      </p>
-      <a class="hub-button secondary" href="/episodes/">
-        All Episodes
-      </a>
-
-    </div>
+    <!-- WORK WITH PHIL --> 
+    <div class="hub-action"> 
+      <div class="hub-action-title"> 
+        <span class="hub-icon">✦</span>
+           <h3>Work With Phil</h3> 
+      </div> 
+      
+      <p> Interested in being a guest, sponsoring the show, or exploring a partnership? </p> 
+      
+      <a class="hub-button secondary" 
+          href="/work-with-phil-phails/"> 
+        Learn More 
+      </a> 
+    </div> 
 
   </div>
 

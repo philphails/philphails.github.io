@@ -1,5 +1,6 @@
 ---
 title: "Work With Phil Phails"
+description: "Explore sponsorship, partnership, and guest opportunities with Phil Phails, an independent long-form media project exploring resilience, identity, psychology, philosophy, and personal growth."
 permalink: /work-with-phil-phails/
 layout: single
 classes: wide
@@ -11,33 +12,7 @@ header:
 
 Phil Phails is an independent long-form media project exploring resilience, identity, psychology, philosophy, endurance, recovery, and personal transformation.
 
-Through thoughtful conversations and reflective storytelling, Phil Phails creates space for people seeking meaning, growth, and a deeper understanding of what it means to be human.
-
----
-
-<div class="hub-footer">
-
-  <div class="hub-footer-actions" style="justify-content: center;">
-
-    <!-- GET IN TOUCH -->
-    <div class="hub-action" style="max-width: 380px;">
-      <div class="hub-action-title">
-        <span class="hub-icon">✉</span>
-        <h3>Get in Touch</h3>
-      </div>
-
-      <p>
-        Interested in sponsoring, partnering, or appearing on the show? Reach out directly.
-      </p>
-
-      <a class="hub-button primary" href="mailto:phillip@philphails.com">
-        phillip@philphails.com
-      </a>
-    </div>
-
-  </div>
-
-</div>
+This page is for organizations, collaborators, and individuals interested in sponsoring the show, partnering on a project, or joining the conversation as a guest.
 
 ---
 
@@ -53,7 +28,7 @@ Through thoughtful conversations and reflective storytelling, Phil Phails create
       </div>
 
       <p>
-        Connect with an engaged audience focused on health, growth, resilience, psychology, philosophy, and personal transformation.
+        Connect your organization with an engaged audience interested in health, growth, resilience, psychology, philosophy, and personal transformation.
       </p>
 
       <a class="hub-button secondary" href="#for-sponsors">
@@ -69,11 +44,11 @@ Through thoughtful conversations and reflective storytelling, Phil Phails create
       </div>
 
       <p>
-        Collaborate on educational initiatives, workshops, community projects, and meaningful conversations.
+        Collaborate on conversations, events, workshops, educational initiatives, and community projects that create meaningful impact.
       </p>
 
       <a class="hub-button secondary" href="#for-partners">
-        Strategic Partnerships
+        Explore Partnerships
       </a>
     </div>
 
@@ -85,7 +60,7 @@ Through thoughtful conversations and reflective storytelling, Phil Phails create
       </div>
 
       <p>
-        Long-form conversations that allow ideas, stories, expertise, and life experiences to be explored in depth.
+        Share your experience, expertise, ideas, and story through a thoughtful long-form conversation designed to go deeper than the usual interview.
       </p>
 
       <a class="hub-button secondary track-guest" href="#for-guests">
@@ -176,7 +151,7 @@ Through thoughtful conversations and reflective storytelling, Phil Phails create
 
 ---
 
-# Reach & Distribution
+# Distribution & Reach
 
 Phil Phails meets its audience across video, audio, and broadcast — built for both discovery and long-term engagement.
 
