@@ -396,3 +396,25 @@ search: false
   color: #666;
   font-size: .9rem;
 }
+
+/* Sponsor CTA */
+.page__content .hub-footer.sponsor-cta {
+  margin-top: 3rem;
+}
+
+.sponsor-cta .hub-footer-actions {
+  grid-template-columns: 1fr;
+}
+
+.sponsor-cta .hub-action {
+  width: 100%;
+  text-align: center;
+}
+
+.sponsor-cta .hub-action-title {
+  justify-content: center;
+}
+
+.sponsor-cta .hub-button {
+  margin-top: 0.5rem;
+}

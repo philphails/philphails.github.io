@@ -8,7 +8,7 @@ classes: wide
 header:
   image: /assets/images/work-with-phil-phails-page-image.jpg
 ---
-### Independent Media for the Human Experience
+### Independent Long-Form Media for the Human Experience
 
 Phil Phails is an independent long-form media project exploring resilience, identity, psychology, philosophy, endurance, recovery, and personal transformation.
 
@@ -28,7 +28,7 @@ This page is for organizations, collaborators, and individuals interested in spo
       </div>
 
       <p>
-        Connect your organization with an engaged audience interested in health, growth, resilience, psychology, philosophy, and personal transformation.
+        Connect your organization with an audience actively interested in health, growth, resilience, psychology, philosophy, and personal transformation.
       </p>
 
       <a class="hub-button secondary" href="#for-sponsors">
@@ -75,10 +75,7 @@ This page is for organizations, collaborators, and individuals interested in spo
 ---
 
 # Audience Snapshot
-
-### Thoughtful. Growth-Oriented. Engaged.
-
-*Last updated: August 2026*
+*Thoughtful. Growth-Oriented. Engaged.*
 
 <div class="hub-footer">
 
@@ -148,6 +145,7 @@ This page is for organizations, collaborators, and individuals interested in spo
   </div>
 
 </div>
+*Last updated: August 2026*
 
 ---
 
@@ -203,9 +201,45 @@ Phil Phails has aired weekly since June 2024 on Channel 10, the longest continua
 
 Phil Phails works best with organizations aligned with growth, learning, health, resilience, and personal transformation. Sponsorships are integrated through genuine relationships and conversation rather than traditional advertising, reaching adults actively investing in their own growth — and staying visible through an evergreen archive that keeps generating views long after an episode airs.
 
+### How Sponsorship Can Work
+
+Phil Phails takes a relationship-first approach to sponsorship. Rather than traditional advertising, partnerships are designed to create genuine connections between organizations, their work, and the conversations happening on the show.
+
+<div class="hub-footer">
+
+  <div class="hub-footer-actions">
+
+    <div class="hub-action">
+      <h3>Integrated Conversations</h3>
+      <p>
+        Support thoughtful conversations that naturally connect your organization,
+        mission, or expertise with subjects relevant to the Phil Phails audience.
+      </p>
+    </div>
+
+    <div class="hub-action">
+      <h3>Content & Distribution</h3>
+      <p>
+        Extend the reach of a partnership through long-form episodes, short-form
+        clips, social content, and the broader Phil Phails media ecosystem.
+      </p>
+    </div>
+
+    <div class="hub-action">
+      <h3>Evergreen Exposure</h3>
+      <p>
+        Phil Phails episodes remain part of a growing archive, creating opportunities
+        for discovery and engagement long after an episode is published.
+      </p>
+    </div>
+
+  </div>
+
+</div>
+
 ### Ideal Sponsor Categories
 
-These are the categories where the fit tends to be strongest — but if your organization shares the show's values and doesn't see itself below, reach out anyway.
+These are the categories where the fit tends to be strongest. If your organization shares the values of Phil Phails but doesn't see itself below, reach out anyway.
 
 <div class="hub-footer">
 
@@ -242,6 +276,30 @@ These are the categories where the fit tends to be strongest — but if your org
 
 </div>
 
+
+<div class="hub-footer sponsor-cta">
+
+  <div class="hub-footer-actions">
+
+    <div class="hub-action">
+      <div class="hub-action-title">
+        <span class="hub-icon">🤝</span>
+        <h3>Interested in Working Together?</h3>
+      </div>
+
+      <p>
+        Let's talk about how Phil Phails could support your organization's goals
+        through a genuine, long-form media partnership.
+      </p>
+
+      <a class="hub-button primary" href="mailto:phillip@philphails.com">
+        Discuss Sponsorship
+      </a>
+    </div>
+
+  </div>
+
+</div>
 ---
 
 # <a id="for-partners"></a>For Strategic Partners
