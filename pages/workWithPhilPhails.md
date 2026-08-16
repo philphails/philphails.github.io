@@ -322,7 +322,13 @@ TEDx speaker Rick Kutcher · Fr. Bill W., Episcopal priest & author of *The Powe
 
 > *"Once the interview began, I knew I'd made the right decision—but more than that, I knew I'd made a new friend."*
 
-### Father Bill W.
+<h3>
+  <a href="https://www.philphails.com/episodes/two-way-prayer-inner-guidance-inner-voice/"
+     target="_blank"
+     rel="noopener noreferrer">
+    Father Bill W.
+  </a>
+</h3>
 *Episcopal Priest & Author, The Power of Two Way Prayer*
 
 When Phil first invited me to record a session with him, I'll admit to having my doubts. But something about Phil's sincerity and dedication called to me. Once the interview began, I knew I'd made the right decision—but more than that, I knew I'd made a new friend.
@@ -333,10 +339,16 @@ We've all failed at times in life, and sharing how we climbed out of those holes
 
 > *"The blend of freewheeling curiosity and systematic preparation allows the guest to truly shine."*
 
-### Andrew Wagner
+<h3>
+  <a href="https://www.philphails.com/episodes/stand-up-comedy-fear-adhd-start-performing/"
+     target="_blank"
+     rel="noopener noreferrer">
+    Andrew Wagner
+  </a>
+</h3>
 *Comedian*
 
-Philip is a natural interviewer. His style is loose and conversational but structured. He spends hours preparing behind the scenes, creating an on-air structure that can ebb and flow while maintaining a productive, cohesive narrative.
+Phillip is a natural interviewer. His style is loose and conversational but structured. He spends hours preparing behind the scenes, creating an on-air structure that can ebb and flow while maintaining a productive, cohesive narrative.
 
 The combination of genuine curiosity and thoughtful preparation allows the guest to truly shine.
 
@@ -344,8 +356,15 @@ The combination of genuine curiosity and thoughtful preparation allows the guest
 
 > *"He manages to get experts in almost every modality related to growth and human experience."*
 
-### David Garrison
+<h3>
+  <a href="https://www.philphails.com/episodes/authentic-connection-mens-work-david-garrison/"
+     target="_blank"
+     rel="noopener noreferrer">
+    David Garrison
+  </a>
+</h3>
 *Men's Work Facilitator*
+
 
 I really enjoyed being Phillip's guest on the show. He asks questions that lead naturally into the most meaningful topics while keeping the conversation light, engaging, and authentic.
 
