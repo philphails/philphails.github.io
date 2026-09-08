@@ -2,16 +2,66 @@
 layout: archive
 ---
 
-<input
-  type="text"
-  id="episodes-search"
-  placeholder="Search episodes..."
-  class="search-box"
-/>
+{% assign entries = site[page.collection] %}
 
-<div class="entries-grid" id="episodes-container"></div>
+{% if page.sort_by %}
+  {% assign entries = entries | sort: page.sort_by %}
+{% endif %}
+
+{% if page.sort_order == "reverse" %}
+  {% assign entries = entries | reverse %}
+{% endif %}
+
+<div class="entries-grid">
+
+  {% for entry in entries %}
+
+    <article class="archive__item">
+
+      {% if entry.header.image %}
+        <div class="archive__item-teaser">
+          <a href="{{ entry.url | relative_url }}">
+            <img
+              src="{{ entry.header.image | relative_url }}"
+              alt="{{ entry.title | escape }}">
+          </a>
+        </div>
+      {% endif %}
+
+      <div class="archive__item-body">
+
+        {% if entry.date %}
+          <p class="page__meta">
+            {{ entry.date | date: "%B %-d, %Y" }}
+          </p>
+        {% endif %}
+
+        <h2 class="archive__item-title">
+          <a href="{{ entry.url | relative_url }}">
+            {{ entry.title }}
+          </a>
+        </h2>
+
+        {% if entry.description %}
+          <p class="archive__item-excerpt">
+            {{ entry.description }}
+          </p>
+        {% endif %}
+
+        <p>
+          <a
+            href="{{ entry.url | relative_url }}"
+            class="btn btn--primary">
+            Read More
+          </a>
+        </p>
+
+      </div>
+
+    </article>
+
+  {% endfor %}
+
+</div>
 
 {% include hub-footer.html %}
-
-<script src="https://unpkg.com/lunr/lunr.js"></script>
-<script src="{{ '/assets/js/search.js' | relative_url }}"></script>

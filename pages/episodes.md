@@ -1,6 +1,6 @@
 ---
 title: "Episodes"
-layout: collection
+layout: episode-collection
 permalink: /episodes/
 collection: episodes
 entries_layout: grid

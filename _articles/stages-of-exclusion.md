@@ -1,5 +1,7 @@
 ---
+collection: articles
 layout: article
+date: 2026-06-16
 title: "Stages of Exclusion: A Neurodivergent Journey Through Community Rejection and Rebuilding"
 description: "One ADHDer's raw account of the seven stages from hopeful entry into a group to painful exclusion, grief, and eventual agency. Insights on rejection sensitivity, belonging, and building truly inclusive communities."
 permalink: /articles/stages-of-exclusion-neurodivergent-journey/

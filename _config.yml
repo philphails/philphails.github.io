@@ -322,18 +322,6 @@ defaults:
       share: true
       related: true
 
-collections:
-  episodes:
-    output: true
-    permalink: /:collection/:path/
-    metadata: true
-
-  articles:
-    output: true
-    permalink: /articles/:path/
-
-
-defaults:
   # _articles
   - scope:
       path: ""
@@ -344,8 +332,6 @@ defaults:
       author_profile: false
       share: true
 
-
-defaults:
   # _episodes
   - scope:
       path: ""
@@ -355,6 +341,17 @@ defaults:
       classes: wide
       author_profile: false
       share: true
+
+# Collections
+collections:
+  episodes:
+    output: true
+    permalink: /:collection/:path/
+    metadata: true
+
+  articles:
+    output: true
+    permalink: /articles/:path/
 
 youtube_url: https://www.youtube.com/@PhilPhails
 youtube_url_subscribe: https://www.youtube.com/@PhilPhails?sub_confirmation=1

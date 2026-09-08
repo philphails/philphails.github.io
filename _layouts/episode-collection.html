@@ -1,0 +1,17 @@
+---
+layout: archive
+---
+
+<input
+  type="text"
+  id="episodes-search"
+  placeholder="Search episodes..."
+  class="search-box"
+/>
+
+<div class="entries-grid" id="episodes-container"></div>
+
+{% include hub-footer.html %}
+
+<script src="https://unpkg.com/lunr/lunr.js"></script>
+<script src="{{ '/assets/js/search.js' | relative_url }}"></script>

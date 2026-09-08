@@ -1,10 +1,11 @@
 ---
-title: "ADHD Episodes"
-layout: collection
-permalink: /topics/adhd/
-collection: episodes
-entries_layout: grid
+layout: hub
 classes: wide
+category: adhd
+title: "ADHD Episodes"
+permalink: /topics/adhd/
+
+entries_layout: grid
 sort_by: episode_number
 sort_order: reverse
 

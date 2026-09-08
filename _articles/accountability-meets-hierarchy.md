@@ -1,19 +1,18 @@
 ---
+collection: articles
 layout: article
-title: ""
-description: ""
+date: 2026-09-07
+title: "When Accountability Meets Hierarchy"
+description: "a description"
 permalink: /articles/when-accountability-meets-hierarchy/
 
 header:
-  image: articles/assets/stages-of-exclusion-PageImage.jpg
+  image: articles/assets/accountability-meets-hierarchy-PageImage.jpg
 
 related_episodes:
     - 25
     - 54
 ---
-# When Accountability Meets Hierarchy
-*Safety, Power, and the Space Between in a Men’s Group*
-
 This is not a story about one man being right and another being wrong.  
 It is a story about what happens when a group that names accountability, safety, and brotherhood is asked to live those values under pressure.
 
@@ -23,7 +22,7 @@ What follows is the full sequence of documents I wrote, the responses I received
 
 Names of every man except Craig and myself have been removed to protect anonymity.
 
-![Broken circle – rupture and repair](./assets/broken-circle.jpg)
+![Broken circle – rupture and repair](../assets/broken-circle.jpg)
 
 ---
 
@@ -97,7 +96,7 @@ I also attached an earlier email I had sent Craig on August 25 about working wit
 
 My hope was that we might model ways of listening to anger rather than acting it out aggressively.
 
-![Pull quote: What we repeatedly practice becomes our pattern.](quote-practice-pattern.jpg)
+![Pull quote: What we repeatedly practice becomes our pattern.](../assets/quote-practice-pattern.jpg)
 
 ---
 
@@ -105,17 +104,80 @@ My hope was that we might model ways of listening to anger rather than acting it
 
 Several men responded in the group thread.
 
-One brother thanked me for sharing data, judgments, and impacts. He invited Craig to share his experience as well and offered himself as a check-in brother for anyone who wanted support.
+Man 1:
+>I have read the document.
 
-Another called the document a gift and said it articulated why he thought I was a strong addition to the group.
+>Phillip thank you for sharing your data, judgements, and impacts from your interaction with Craig. 
 
-A third brother (who was present that night) offered a data-focused recounting: two men had a disagreement; Craig expressed anger within a process that multiple men found moving; I later stated and then took back a charge; Craig shared heated words and said he did not feel comfortable with my leadership as King. This brother did not agree that I was punished for passing. He believed much of what I was feeling was my own work and projections, and expressed sadness that I did not feel comfortable sharing more in the moment.
+>I judge this is a sensitive topic and I want to remind the men in this group that this is an opportunity to practice respectful communication and owning our experiences. 
 
-A fourth brother largely agreed with that assessment. He noted that working through conflict in the warrior round is part of the power of the work, that the meeting went off the rails in a way he had not seen in over a decade of men’s work, and that repair with the whole group would be needed.
+>I assume that Craig also had an experience last night. Craig, since Phillip has shared his experience I invite you to do the same. 
 
-A fifth brother took time to reflect. His initial reaction included anger at the choice to process the evening in a group chat. He saw the written format as circumventing established MKP frameworks and creating a precedent of adjudicating meetings over text. He named a significant rupture and said healing needed to happen together, in person, with significant attendance, centered on personal accountability and an end state where all men felt safe, supported, and valued.
+>Phillip, since you took impacts from last night’s meeting I encourage you to check in with a brother, and I’m happy to be that brother. 
 
-A sixth brother expressed disbelief, betrayed trust, and anger at the manner in which the situation unfolded. He was more concerned about Craig (who had not yet responded) and felt the work belonged in the circle and the warrior round. He valued the trust MKP places in elders and process, and said repairing the container would take time.
+>To any men that want to check in with me, I will make myself available tomorrow between 1400-1700.
+
+Man 2:
+>Read it! 
+>First thought is, DAMN, I wish I was there.
+>Second thought, this is document is a gift and it really articulates why I think Phillip is such a great addition to the group!
+
+Man 3:
+>I dont love this format for what was a charged and nuanced interaction but since it is now a group discussion (and I was there last night) I will chime in. 
+
+>My perspective of the event with mostly data:
+
+>Two men had a disagreement
+
+>Craig stated he had a charge. Phillip passed to stand in 
+
+>Craig was open and intentional that the charge was his projection and some anger was expressed within the process (not directed at Phillip). Multiple men (including myself) thanked Craig for his work. I was personally very moved by it. 
+
+>Phillip stated that he had a charge and took back that statement
+
+>Craig then stated he had another charge
+
+>Craig did share heated words at this point and stated that he did not feel comfortable staying with Phillips leadership as king
+
+>Meeting end 
+
+>I dont agree that you were punished for passing Phillip jones. While anger was expressed, my judgement is that no one was in any danger.
+
+>I believe that a lot of what you are feeling @Phillip jones is your own work/projections. I feel some sadness that you didnt feel comfortable sharing and touching some of this last night
+
+Man 4:
+>I also don't like this message format for this kind of thing. Overall I agree with Wade's assessment. 
+
+>The power of a mpk men's group and the warrior round is working through conflict as it arises. Looking a man in the eyes and facing your fears, anger, sadness. It can be hard, even terrifying. I saw that Craig did that. That meeting then went off the rails unlike anything I've seen in my 10+ years of doing men's work. It makes me very sad and, at the moment, reluctant to want to return to the group, to be honest. This will need some work with the whole group to repair.
+
+Man 5:
+>I've taken some time to reflect as my initial reaction would have been coming from anger at the choice to draft a document in a group chat, and how that document characterized the events of a very charged and nuanced evening. 
+
+>I will echo the sentiment that a group chat format is unconstructive. 
+
+>MKP has frameworks and those frameworks are very important for processing challenging moments. By choosing to adjudicate Monday night's meeting in a chat group I see that as circumventing (manipulating) the very well established processes laid out in these frameworks.  
+
+>This implicitly sets a dangerous precedent in my opinion; the precedent being “if you don’t like the way the group went you send a group chat and process it over text message.” This is not my understanding of how MKP works because there is no accountability there.  
+
+>I judge that there has been a significant rupture in our group and thus a significant repair is required. To put it in MKP language there are multiple charges that need to be processed. 
+
+>It is also my belief that when a rupture happens together in a group, the healing must happen together in a group.
+
+>I also see us all as choosing to do something pretty difficult; this being choosing to come together as a group, often vulnerably, and visiting sensitive topics regularly while maintaining group cohesion. In my view this is a constant process of rupture and repair. 
+
+>My want is for us to formulate our next steps around a shared understanding of the answer to this question:
+
+>What is needed to repair the rupture created in Monday night's meeting, and what MKP frameworks, processes, and procedures will we need to turn to in order to achieve this goal of repair? 
+
+>Here are some elements of my answer to this question.
+
+> 1. It must be done together, in person, and with significant attendance
+> 2. It must follow MKP standards and center around personal accountability 
+> 3. It must be in pursuit of an end state where all the men in the group feel safe, supported, valued, and confident that the group will meet their need for deep personal work
+
+Man 6:
+>I’ve gone over the responses and given thought about what I know from data available. My first reaction the the email was disbelief, betrayed trust, and anger. I found the manner which this unfolded unacceptable for any I-group. The one person we haven’t heard from is Craig. I’m more concerned about him. What happened belonged in the circle and should have stayed in the warrior round and been worked out and cleared. I wasn’t there. I’m sorry I wasn’t. Of all the responses, I’m grateful for Wade’s assessment and Ryan’s thoughtful sharing. If there’s one thing I’ve always admired about MKP is it’s embraces elders, their vision, wisdom, and puts complete trust in the process. Repairing this container will take time.
+
 
 Craig did not respond in the thread.
 
@@ -146,7 +208,7 @@ I asked that when anyone says “Safety,” all talking immediately stop and the
 
 Any honest assessment of group safety requires attention to power. Power exists whether or not it is named, and it shapes perception, interpretation, and response. The following cognitive biases and distortions become especially relevant in contexts involving hierarchy, intimacy, and shared identity.
 
-![13 Cognitive Biases & Distortions in Group Power Dynamics](cognitive-biases-infographic.jpg)
+![13 Cognitive Biases & Distortions in Group Power Dynamics](../assets/cognitive-biases-infographic.jpg)
 
 **Core Cognitive Distortions (Individual-Level)**
 
@@ -207,7 +269,7 @@ Any honest assessment of group safety requires attention to power. Power exists 
     “If you’re more sensitive, your perception is less accurate.”  
     In reality, sensitivity often increases detection, not distortion—especially around aggression, threat, and boundary violation. High sensitivity ≠ unreliability. It often means lower tolerance for ambiguity around danger.
 
-![Pull quote: Impact matters regardless of intent.](quote-impact-intent.jpg)
+![Pull quote: Impact matters regardless of intent.](../assets/quote-impact-intent.jpg)
 
 ---
 
@@ -241,7 +303,7 @@ There are also many men who report deeply positive, life-changing experiences. T
 
 Several frameworks help name what can happen under stress:
 
-![Tuckman’s Stages of Group Development](tuckman-stages.jpg)
+![Tuckman’s Stages of Group Development](../assets/tuckman-stages.jpg)
 
 **1. Tuckman’s Stages of Group Development**  
 Forming → Storming → Norming → Performing.  
@@ -274,7 +336,7 @@ None of this requires bad people or malicious intent. It only requires a group u
 
 ## Timeline of Events
 
-![Timeline of Key Events](timeline.jpg)
+![Timeline of Key Events](../assets/timeline.jpg)
 
 ---
 
@@ -330,6 +392,6 @@ The gold, if there is any, is not in winning an argument or reforming a group. I
 
 That is the work I am still doing.
 
-![Two mirrors – projection](mirrors.jpg)
+![Two mirrors – projection](../assets/mirrors.jpg)
 
-![Single light in dark space – safety and containment](light-in-darkness.jpg)
+![Single light in dark space – safety and containment](../assets/light-in-darkness.jpg)
