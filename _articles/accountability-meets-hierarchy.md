@@ -30,8 +30,8 @@ header:
   image: articles/assets/accountability-meets-hierarchy-PageImage.jpg
 
 related_episodes:
-    - 25
-    - 54
+    - 69
+    - 64
 ---
 This is not a story about one man being right and another being wrong.  
 It is a story about what happens when a group that names accountability, safety, and brotherhood is asked to live those values under pressure.
