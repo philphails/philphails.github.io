@@ -2,9 +2,29 @@
 collection: articles
 layout: article
 date: 2026-09-07
-title: "When Accountability Meets Hierarchy"
-description: "a description"
-permalink: /articles/when-accountability-meets-hierarchy/
+title: "Safety, Anger, and Power in Men’s Groups: A Hard Look at the Mankind Project"
+description: "A raw exploration of safety, verbal aggression, and power inside a Mankind Project I-Group. Phillip Jones reflects on what happened, the research on anger, and the choice to protect integrity."
+permalink: "/articles/when-accountability-meets-hierarchy-mens-groups-mankind-project/"
+
+categories:
+  - mind
+  - spirit
+  - psychology
+  - identity
+
+tags:
+  - accountability
+  - hierarchy
+  - power dynamics
+  - safety in men’s groups
+  - mankind project
+  - verbal aggression
+  - emotional safety
+  - men’s work
+  - integrity
+  - group process
+  - anger and accountability
+  - personal reflection
 
 header:
   image: articles/assets/accountability-meets-hierarchy-PageImage.jpg
