@@ -10,13 +10,9 @@ header:
 ---
 ## The Idea
 
-What does it actually take to become a better cyclist?
-
-Not just faster.
-Not just fitter.
-Not just more efficient.
-
 This series follows the real process of becoming a better cyclist with cycling coach Mark Duroy and host/producer Phillip Jones.
+
+![What does it actually take to become a better cyclist?](../assets/images/what-does-it-actually-take.jpg)
 
 Rather than simply talking about training, we're documenting the experience of being coached over time — setting goals, building a training plan, riding, adapting, struggling, improving, and figuring out what actually works.
 
