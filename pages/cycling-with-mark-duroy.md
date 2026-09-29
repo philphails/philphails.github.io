@@ -207,6 +207,10 @@ We're not simply asking you to "come on a podcast." We're inviting you to contri
 
 </div>
 
+### Association With the Series
+
+Your participation connects your work to a larger Austin cycling project exploring performance, health, community, and the human experience of becoming better at something.
+
 Most importantly, we're interested in creating a conversation that is genuinely useful to the people watching — not simply promotional content.
 
 ---
@@ -241,7 +245,9 @@ The cycling series extends that mission into a world where questions about perfo
 
 Phil Phails is an independently produced project. Every long-form conversation involves significant production time and expense — from pre-production and research through filming, editing, post-production, distribution, and the creation of short-form content.
 
-Because this series is being developed as a larger ongoing project rather than a collection of one-off interviews, we're also looking for organizations, businesses, and participating experts who want to help support its production.
+Because this series is being developed as a larger ongoing project rather than a collection of one-off interviews, I'm also looking for participants, businesses, and organizations who are willing to **share in the cost of producing it**.
+
+Support can range from contributing toward an individual episode, to sponsoring multiple episodes, to providing meaningful in-kind support.
 
 <div class="hub-footer">
 
