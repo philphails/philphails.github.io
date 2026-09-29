@@ -46,6 +46,8 @@ At the center of the project is the coaching relationship between Mark and Phill
 
 We'll document the process over time: **Goals → Assessment → Training Plan → Training → Feedback → Adjustment → Repeat**
 
+![The Coaching Process Cycle](../assets/images/coaching-process-cycle.jpg)
+
 A major part of the story is what happens between those steps. How does the rider feel? What does the rider perceive? What does the data say? What happens when the plan doesn't work? How do motivation, confidence, fatigue, enjoyment, expectations, and identity affect performance?
 
 The intention is to show the actual experience of being coached, rather than simply discussing coaching as an abstract concept. We'll also explore that process through different types of riders — from someone relatively new to structured training to experienced athletes and racers.
@@ -215,9 +217,11 @@ Cycling gives us a surprisingly good laboratory for studying ourselves.
 
 We can measure watts, heart rate, distance, speed, sleep, weight, training load, and performance. But numbers don't tell the whole story.
 
-Why does one person keep riding when things get difficult? Why does another person quit? Why does improvement sometimes make us happier — and sometimes make us miserable? Why do some people become stronger through competition while others become consumed by it? Why do we ride when nobody is making us?
+Why does one person keep riding when things get difficult? Why does another person quit? Why does improvement sometimes make us happier — and sometimes make us miserable? Why do some people become stronger through competition while others become consumed by it?
 
 And what happens when the pursuit of becoming better at something forces us to confront who we are?
+
+![The Larger Questions](../assets/images/larger-questions.jpg)
 
 That's the territory we're interested in exploring.
 
@@ -227,7 +231,7 @@ That's the territory we're interested in exploring.
 
 ## Phil Phails
 
-Phil Phails is an independent long-form media project based in Austin, Texas, hosted and produced by Phillip Jones. The project explores the intersection of Mind, Body, and Spirit through long-form conversations about identity, psychology, philosophy, performance, relationships, resilience, and the process of becoming who we are.
+Phil Phails is an independent long-form media project based in Austin, Texas, exploring identity, psychology, performance, and the process of becoming who we are. [Learn more about the show →](/about/)
 
 The cycling series extends that mission into a world where questions about performance, identity, discipline, community, and personal growth are constantly playing out in real time.
 
