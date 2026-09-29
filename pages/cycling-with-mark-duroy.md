@@ -21,7 +21,29 @@ Along the way, we'll bring in people who understand the different pieces of that
 Each person brings a different perspective to the same larger question: **what does it take to become the cyclist — and the person — you want to become?**
 
 ---
+## About Mark Duroy
 
+Mark Duroy is a former professional cyclist who raced extensively across Europe, competing in events including Rund um Köln, Ronde van Boxmeer, and Ronde van Gelderland.
+
+Today, as a USA Cycling certified coach and founder of Velo-Savvy, Mark works with cyclists of all levels — from beginners taking their first steps into structured training to experienced racers pursuing podium results.
+
+Drawing on decades of experience as a cyclist and coach, Mark helps athletes improve performance, refine race strategy, and build the mental resilience needed to pursue their goals while finding greater enjoyment in the sport.
+
+For this series, Mark isn't simply an expert we're interviewing. **He's the coach at the center of the experiment.**
+
+We'll document what happens when a real rider commits to the coaching process over time: establishing goals, building a training plan, putting that plan into practice, evaluating what happens, and adapting along the way.
+
+That gives us an opportunity to look at coaching from the inside — not just what a coach knows, but what actually happens when coaching becomes part of someone's life.
+
+**Want to see Mark in action?**
+
+[![Mark Duroy Episode Image](../_episodes/assets/images/teaser/mark-duroy-teaser.jpg)](https://www.philphails.com/episodes/cycling-mental-resilience-mark-duroy/)
+
+**Find Mark / Velo-Savvy**
+
+[Website](http://velo-savvy.com/) · [Facebook](https://www.facebook.com/mark.duroy) · [Instagram](https://www.instagram.com/velo_savvy/) · [Strava](https://www.strava.com/clubs/1357604)
+
+---
 ## This Isn't a Cycling Advice Show
 
 We're not trying to create another show where someone sits across from an expert and asks them to explain their field.

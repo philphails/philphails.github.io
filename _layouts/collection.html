@@ -16,49 +16,7 @@ layout: archive
 
   {% for entry in entries %}
 
-    <article class="archive__item">
-
-      {% if entry.header.image %}
-        <div class="archive__item-teaser">
-          <a href="{{ entry.url | relative_url }}">
-            <img
-              src="{{ entry.header.image | relative_url }}"
-              alt="{{ entry.title | escape }}">
-          </a>
-        </div>
-      {% endif %}
-
-      <div class="archive__item-body">
-
-        {% if entry.date %}
-          <p class="page__meta">
-            {{ entry.date | date: "%B %-d, %Y" }}
-          </p>
-        {% endif %}
-
-        <h2 class="archive__item-title">
-          <a href="{{ entry.url | relative_url }}">
-            {{ entry.title }}
-          </a>
-        </h2>
-
-        {% if entry.description %}
-          <p class="archive__item-excerpt">
-            {{ entry.description }}
-          </p>
-        {% endif %}
-
-        <p>
-          <a
-            href="{{ entry.url | relative_url }}"
-            class="btn btn--primary">
-            Read More
-          </a>
-        </p>
-
-      </div>
-
-    </article>
+    {% include episode-card.html entry=entry %}
 
   {% endfor %}
 

@@ -1,0 +1,43 @@
+<article class="archive__item">
+
+  {% if include.entry.header.teaser %}
+    <div class="archive__item-teaser">
+      <a href="{{ include.entry.url | relative_url }}">
+        <img
+          src="{{ include.entry.header.teaser | relative_url }}"
+          alt="{{ include.entry.title | escape }}">
+      </a>
+    </div>
+  {% endif %}
+
+  <div class="archive__item-body">
+
+    {% if include.entry.date %}
+      <p class="page__meta">
+        {{ include.entry.date | date: "%B %-d, %Y" }}
+      </p>
+    {% endif %}
+
+    <h2 class="archive__item-title" no_toc itemprop="headline">
+      <a href="{{ include.entry.url | relative_url }}">
+        {{ include.entry.title }}
+      </a>
+    </h2>
+
+    {% if include.entry.description %}
+      <p class="archive__item-excerpt">
+        {{ include.entry.description }}
+      </p>
+    {% endif %}
+
+    <p>
+      <a
+        href="{{ include.entry.url | relative_url }}"
+        class="btn btn--primary">
+        Read More
+      </a>
+    </p>
+
+  </div>
+
+</article>
