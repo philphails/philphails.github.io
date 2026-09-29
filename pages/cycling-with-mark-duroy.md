@@ -8,13 +8,6 @@ classes: wide
 header:
   image: /assets/images/phil-phails-mark-duroy-page-image.jpg
 ---
-
-# Phil Phails × Mark Duroy
-
-### Cycling, Coaching & the Pursuit of Becoming Better
-
----
-
 ## The Idea
 
 What does it actually take to become a better cyclist?
