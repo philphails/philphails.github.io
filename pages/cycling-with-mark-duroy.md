@@ -99,7 +99,7 @@ Every expert in the series represents a different piece of the cycling experienc
     <div class="hub-action">
       <div class="hub-action-title">
         <span class="hub-icon">💪</span>
-        <h3>Strenght & Conditioning</h3>
+        <h3>Strength & Conditioning</h3>
       </div>
       <p>How does getting stronger change what we're capable of on and off the bike?</p>
     </div>
