@@ -98,10 +98,10 @@ Every expert in the series represents a different piece of the cycling experienc
 
     <div class="hub-action">
       <div class="hub-action-title">
-        <span class="hub-icon">🧘</span>
-        <h3>Mobility & Yoga</h3>
+        <span class="hub-icon">💪</span>
+        <h3>Strenght & Conditioning</h3>
       </div>
-      <p>What does the body need beyond simply accumulating more training?</p>
+      <p>How does getting stronger change what we're capable of on and off the bike?</p>
     </div>
 
   </div>
@@ -111,6 +111,14 @@ Every expert in the series represents a different piece of the cycling experienc
 <div class="hub-footer">
 
   <div class="hub-footer-actions">
+
+    <div class="hub-action">
+      <div class="hub-action-title">
+        <span class="hub-icon">🧘</span>
+        <h3>Mobility & Yoga</h3>
+      </div>
+      <p>What does the body need beyond simply accumulating more training?</p>
+    </div>
 
     <div class="hub-action">
       <div class="hub-action-title">
@@ -128,14 +136,6 @@ Every expert in the series represents a different piece of the cycling experienc
       <p>What are the unwritten rules of riding together? What makes someone a good riding partner or ride leader?</p>
     </div>
 
-    <div class="hub-action">
-      <div class="hub-action-title">
-        <span class="hub-icon">🤝</span>
-        <h3>Cycling & Community</h3>
-      </div>
-      <p>Why do people ride together? What does a cycling community actually provide?</p>
-    </div>
-
   </div>
 
 </div>
@@ -143,6 +143,14 @@ Every expert in the series represents a different piece of the cycling experienc
 <div class="hub-footer">
 
   <div class="hub-footer-actions">
+
+    <div class="hub-action">
+      <div class="hub-action-title">
+        <span class="hub-icon">🤝</span>
+        <h3>Cycling & Community</h3>
+      </div>
+      <p>Why do people ride together? What does a cycling community actually provide?</p>
+    </div>
 
     <div class="hub-action">
       <div class="hub-action-title">
@@ -160,14 +168,6 @@ Every expert in the series represents a different piece of the cycling experienc
       <p>What can experienced and former professional cyclists teach us about performance, sacrifice, identity, and life beyond racing?</p>
     </div>
 
-    <div class="hub-action">
-      <div class="hub-action-title">
-        <span class="hub-icon">🔧</span>
-        <h3>Bike Maintenance</h3>
-      </div>
-      <p>How does understanding and maintaining your bicycle change your relationship with the machine?</p>
-    </div>
-
   </div>
 
 </div>
@@ -175,6 +175,14 @@ Every expert in the series represents a different piece of the cycling experienc
 <div class="hub-footer">
 
   <div class="hub-footer-actions" style="justify-content: center;">
+    
+     <div class="hub-action">
+      <div class="hub-action-title">
+        <span class="hub-icon">🔧</span>
+        <h3>Bike Maintenance</h3>
+      </div>
+      <p>How does understanding and maintaining your bicycle change your relationship with the machine?</p>
+    </div>
 
     <div class="hub-action" style="max-width: 380px;">
       <div class="hub-action-title">
@@ -182,14 +190,6 @@ Every expert in the series represents a different piece of the cycling experienc
         <h3>Technology & Data</h3>
       </div>
       <p>When does technology help us understand our performance — and when can it begin to control how we experience it?</p>
-    </div>
-
-    <div class="hub-action">
-      <div class="hub-action-title">
-        <span class="hub-icon">💪</span>
-        <h3>Strenght & Conditioning</h3>
-      </div>
-      <p>How does getting stronger change what we're capable of on and off the bike?</p>
     </div>
 
   </div>
