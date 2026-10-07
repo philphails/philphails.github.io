@@ -3,7 +3,7 @@ title: "Cycling with Mark Duroy | Velo-Savvy — A Phil Phails Series"
 
 description: "A Phil Phails series following the real coaching journey between host Phillip Jones and cycling coach Mark Duroy of Velo-Savvy — exploring performance, identity, community, and what it takes to become a better cyclist."
 
-permalink: /cycling-with-mark-duroy-velo-savvy/
+permalink: /cycling-with-mark-duroy/
 
 layout: single
 
