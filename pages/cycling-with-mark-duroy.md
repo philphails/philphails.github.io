@@ -309,6 +309,22 @@ That means the series will take us beyond the individual coaching experiment and
 
 ---
 
+<!-- ## The People Behind the Project
+
+Cycling is a team effort, even when you're riding alone.
+
+This project brings together people with different experiences and expertise in cycling, endurance, health, performance, psychology, and the Austin cycling community.
+
+From coaching and yoga to endurance testing, racing, and the psychology of health, each contributor brings a different perspective to the larger experiment.
+
+Some are helping us understand the physical demands of becoming a better cyclist. Others help us explore the mental, social, and personal dimensions of the experience.
+
+Meet the people contributing to the project.
+
+[Meet the Contributors →](https://www.philphails.com/cycling-project-participants/)
+
+--- -->
+
 ## What We're Creating
 
 Each conversation becomes part of a larger media project rather than a one-off interview. Content includes long-form conversations, YouTube episodes, short-form video, social clips, written articles and episode pages, Austin Public Access television, podcast distribution, and collaborative social content with guests and organizations.
